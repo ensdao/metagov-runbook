@@ -1,8 +1,8 @@
-# 04 — Operational Runbook
+# 04: Operational Runbook
 
 > 🚨 **Emergency:** Malicious proposal queued in the Timelock → **[../02-contracts-and-multisigs/security-council.md](../02-contracts-and-multisigs/security-council.md)**. Suspected phishing / poisoned address → **[verification-and-safety.md](verification-and-safety.md)**.
 
-Step-by-step procedures for the recurring on-chain operations the Meta-Governance Working Group runs out of its Safe multisigs — the "how to actually do it" pages: onboarding, safety, compensation, funding, token distribution, and treasury-manager fees.
+Step-by-step procedures for the recurring on-chain operations the Meta-Governance Working Group runs out of its Safe multisigs, the "how to actually do it" pages: onboarding, safety, compensation, funding, token distribution, and treasury-manager fees.
 
 ## Before you do anything: safety first
 

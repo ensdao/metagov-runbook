@@ -14,13 +14,13 @@ Stewards are chosen by **self-nomination followed by a ranked-choice (Copeland) 
 
 ## Running the cycle
 
-1. **Publish the nominations thread** — `[WG] Working Group Steward Nominations Term X (Year)` in the [Meta-Governance category](https://discuss.ens.domains/c/meta-governance/28). Candidates self-nominate within the nomination window. (Term 7 thread: [22157](https://discuss.ens.domains/t/meta-governance-working-group-steward-nominations-term-7-2026/22157).)
-2. **Clear the 10,000-vote threshold** — a nominee must reach ≥10,000 supporting votes during the window to make the ballot ([rules](https://docs.ens.domains/dao/wg/rules/)).
-3. **Run the ranked-choice ballot** — the election runs on [Snapshot](https://snapshot.box/#/s:ens.eth) as a ranked-choice (Copeland) vote over 120 hours; the top 3 by score are seated.
-4. **Make appointments (first 5 days)** — appoint the Lead Steward (operational management, fund-disbursement initiation, DAO updates; removable by simple majority) and, optionally, a Secretary keyholder ([rules](https://docs.ens.domains/dao/wg/rules/)). See [stewards & roles](stewards-and-roles.md).
+1. **Publish the nominations thread**: `[WG] Working Group Steward Nominations Term X (Year)` in the [Meta-Governance category](https://discuss.ens.domains/c/meta-governance/28). Candidates self-nominate within the nomination window. (Term 7 thread: [22157](https://discuss.ens.domains/t/meta-governance-working-group-steward-nominations-term-7-2026/22157).)
+2. **Clear the 10,000-vote threshold**: a nominee must reach ≥10,000 supporting votes during the window to make the ballot ([rules](https://docs.ens.domains/dao/wg/rules/)).
+3. **Run the ranked-choice ballot**: the election runs on [Snapshot](https://snapshot.box/#/s:ens.eth) as a ranked-choice (Copeland) vote over 120 hours; the top 3 by score are seated.
+4. **Make appointments (first 5 days)**: appoint the Lead Steward (operational management, fund-disbursement initiation, DAO updates; removable by simple majority) and, optionally, a Secretary keyholder ([rules](https://docs.ens.domains/dao/wg/rules/)). See [stewards & roles](stewards-and-roles.md).
 5. **Rotate multisig owners** on any seat change, per [signers.md](../04-runbook/signers.md).
 
-Before the nomination window, Meta-Gov sets the term's compensation standards — see [funding-request.md](../04-runbook/funding-request.md).
+Before the nomination window, Meta-Gov sets the term's compensation standards. See [funding-request.md](../04-runbook/funding-request.md).
 
 ## Term 7 (2026) timing
 
@@ -35,6 +35,6 @@ The steward term cycle shifted from calendar-year to a **mid-year cadence** foll
 
 As of 2026-06-20, three Meta-Gov seats are open. Four candidates were nominated: estmcmxci.eth, jkm.eth (James), sovereignsignal.eth (Sov), and vegayp.eth (Eduardo) ([thread](https://discuss.ens.domains/t/meta-governance-working-group-steward-nominations-term-7-2026/22157)).
 
-> ⚠️ **Open question:** The final elected Term 7 Meta-Gov stewards, Lead Steward, and Secretary were undecided as of 2026-06-20 (voting 25–30 Jun 2026 had not opened). For Term 7 the Secretary role is **optional** — stewards may decline to appoint one ([Path forward](https://discuss.ens.domains/t/path-forward-on-working-groups-for-term-7/22107)).
+> ⚠️ **Open question:** The final elected Term 7 Meta-Gov stewards, Lead Steward, and Secretary were undecided as of 2026-06-20 (voting 25–30 Jun 2026 had not opened). For Term 7 the Secretary role is **optional**. Stewards may decline to appoint one ([Path forward](https://discuss.ens.domains/t/path-forward-on-working-groups-for-term-7/22107)).
 
 Term 7 compensation rates (carried forward from Term 6): see [term-07.md](../05-terms/term-07.md).

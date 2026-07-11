@@ -33,7 +33,7 @@ Meta-Gov stewards group: https://discuss.ens.domains/g/Meta-Gov_Stewards · 2026
 
 ## Voting & proposal platforms
 
-Multiple front-ends index the **same** on-chain Governor — they are views over one contract, not separate systems.
+Multiple front-ends index the **same** on-chain Governor. They are views over one contract, not separate systems.
 
 | Platform | Link | Use |
 |---|---|---|

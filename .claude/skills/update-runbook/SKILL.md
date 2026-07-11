@@ -1,6 +1,6 @@
 ---
 name: update-runbook
-description: Use when the ENS Meta-Governance runbook needs refreshing — after a new ENS proposal (on-chain EP or Snapshot social/constitutional vote), a steward election or term transition, a change to a multisig / Security Council / treasury setup, or when an OPEN-QUESTIONS item becomes resolvable.
+description: Use when the ENS Meta-Governance runbook needs refreshing: after a new ENS proposal (on-chain EP or Snapshot social/constitutional vote), a steward election or term transition, a change to a multisig / Security Council / treasury setup, or when an OPEN-QUESTIONS item becomes resolvable.
 ---
 
 # Update the ENS Meta-Gov Runbook
@@ -9,9 +9,9 @@ description: Use when the ENS Meta-Governance runbook needs refreshing — after
 
 Refresh the docs from canonical sources, keeping the repo's founding discipline:
 
-> **Every change carries a source link. Never invent or estimate a number, address, date, rate, or name. Anything you cannot verify from a source goes to [OPEN-QUESTIONS.md](../../../OPEN-QUESTIONS.md) — never into the docs as fact.**
+> **Every change carries a source link. Never invent or estimate a number, address, date, rate, or name. Anything you cannot verify from a source goes to [OPEN-QUESTIONS.md](../../../OPEN-QUESTIONS.md), never into the docs as fact.**
 
-The focus is operational (how things are run), not financial (live dollar values — link the dashboards instead).
+The focus is operational (how things are run), not financial (live dollar values; link the dashboards instead).
 
 ## When to use
 
@@ -20,7 +20,7 @@ The focus is operational (how things are run), not financial (live dollar values
 - A multisig, Security Council, or treasury-automation/fee change.
 - An OPEN-QUESTIONS item became answerable (e.g., election results after the vote).
 
-Not for prose polish or restructuring — that's an ordinary PR.
+Not for prose polish or restructuring. That's an ordinary PR.
 
 ## Data sources (canonical)
 
@@ -48,36 +48,36 @@ Not for prose polish or restructuring — that's an ordinary PR.
 | Security Council change | `02-contracts-and-multisigs/security-council.md` + `addresses.md` |
 | Question resolved | remove from `OPEN-QUESTIONS.md`, add the cited fact to its file |
 
-`addresses.md` is the single source of truth for addresses — other files **link** to it, they don't re-list.
+`addresses.md` is the single source of truth for addresses. Other files **link** to it, they don't re-list.
 
 ## Procedure
 
-1. **Baseline** — read `reference/changelog.md`, the `_as of_` dates, and `OPEN-QUESTIONS.md`. Know what's already documented and what's pending.
-2. **Gather** — for breadth, dispatch parallel subagents (one per source/topic). Each returns *cited facts only* and flags gaps; instruct them to never assume. (This mirrors how the repo was first built.)
-3. **Diff** — list concrete changes per file from the gathered facts.
-4. **Verify structural facts on-chain** — confirm any address / threshold / role via Safe API or Etherscan *before* editing `addresses.md`.
-5. **Apply** — make the edits under the discipline below; keep `addresses.md` canonical.
-6. **Record** — update `reference/changelog.md` and bump the `_as of <date>_` stamps you touched.
-7. **Validate** — run `python3 scripts/verify.py` (links, placeholders, address consistency). Fix anything it reports.
+1. **Baseline**: read `reference/changelog.md`, the `_as of_` dates, and `OPEN-QUESTIONS.md`. Know what's already documented and what's pending.
+2. **Gather**: for breadth, dispatch parallel subagents (one per source/topic). Each returns *cited facts only* and flags gaps; instruct them to never assume. (This mirrors how the repo was first built.)
+3. **Diff**: list concrete changes per file from the gathered facts.
+4. **Verify structural facts on-chain**: confirm any address / threshold / role via Safe API or Etherscan *before* editing `addresses.md`.
+5. **Apply**: make the edits under the discipline below; keep `addresses.md` canonical.
+6. **Record**: update `reference/changelog.md` and bump the `_as of <date>_` stamps you touched.
+7. **Validate**: run `python3 scripts/verify.py` (links, placeholders, address consistency). Fix anything it reports.
 
 ## Non-negotiable discipline
 
 - Cite every concrete claim with a source link.
 - Never invent or estimate a number, address, date, rate, or name. No source → it goes to `OPEN-QUESTIONS.md`, not the docs.
-- Operational over financial — link live dashboards rather than hardcoding values.
+- Operational over financial: link live dashboards rather than hardcoding values.
 - Succinct and high-signal. No filler.
 - Mark superseded items as historical; don't silently erase the record.
 
-## Red flags — STOP and route to OPEN-QUESTIONS instead
+## Red flags: STOP and route to OPEN-QUESTIONS instead
 
 - About to type a number/address/date you didn't pull from a source this session.
 - "It's probably still 3/4" · "the date is likely…" · "the signers are presumably…"
 - Editing `addresses.md` without a Safe API / Etherscan check.
 - Writing any claim that has no citation link.
-- A leftover `<DATE>` / `<ID>` / `<owner-N>` placeholder — fill it with a verified value or the item isn't done. `scripts/verify.py` flags these.
+- A leftover `<DATE>` / `<ID>` / `<owner-N>` placeholder: fill it with a verified value or the item isn't done. `scripts/verify.py` flags these.
 
 ## Common mistakes
 
 - Re-listing addresses in a section file instead of linking `addresses.md` (causes divergence).
-- Asserting an election outcome, threshold change, or rate before it's on-chain / in a source — record it as pending instead.
+- Asserting an election outcome, threshold change, or rate before it's on-chain / in a source. Record it as pending instead.
 - Deleting a superseded proposal's record instead of marking it historical in `changelog.md`.

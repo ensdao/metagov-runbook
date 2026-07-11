@@ -1,6 +1,6 @@
 # Treasury & Endowment
 
-How the ENS DAO treasury is structured, where the money flows, and the controls the Meta-Governance Working Group operates. The DAO holds funds in three places — the **Timelock** (main treasury), the **Endowment** (a karpatkey-managed reserve), and **Working Group multisigs** — all rooted in on-chain governance.
+How the ENS DAO treasury is structured, where the money flows, and the controls the Meta-Governance Working Group operates. The DAO holds funds in three places: the **Timelock** (main treasury), the **Endowment** (a karpatkey-managed reserve), and **Working Group multisigs**, all rooted in on-chain governance.
 
 > Addresses are **not** re-listed here. The canonical address table is [`../02-contracts-and-multisigs/addresses.md`](../02-contracts-and-multisigs/addresses.md). Link to it; never duplicate.
 
@@ -18,6 +18,6 @@ How the ENS DAO treasury is structured, where the money flows, and the controls 
 
 ## Related
 
-- [`../01-governance/`](../01-governance/) — proposal lifecycle that authorizes every spend
-- [`../02-contracts-and-multisigs/`](../02-contracts-and-multisigs/) — addresses, thresholds, signer sets
-- [karpatkey ENS dashboard](https://reports.kpk.io/ens) · [Anticapture ENS](https://app.anticapture.com/ens) — live figures
+- [`../01-governance/`](../01-governance/): proposal lifecycle that authorizes every spend
+- [`../02-contracts-and-multisigs/`](../02-contracts-and-multisigs/): addresses, thresholds, signer sets
+- [karpatkey ENS dashboard](https://reports.kpk.io/ens) · [Anticapture ENS](https://app.anticapture.com/ens): live figures

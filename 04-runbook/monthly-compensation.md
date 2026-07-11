@@ -10,13 +10,13 @@ Maintain a **versioned recipient + amount roster** (e.g. JSON in the WG ops repo
 
 ## Procedure
 
-1. **Update the roster** — branch the previous month's roster; apply any agreed adds/removes/amount changes from the WG.
-2. **Diff vs. last month** — produce an explicit diff (added, removed, changed). Every delta must trace to a WG decision. An unexplained diff blocks the run.
-3. **Verify each recipient ENS resolves** — every address must reverse-resolve to its **expected** ENS name. A mismatch means a poisoned address slipped in — stop.
-4. **Generate the batch** — build the Safe **Transaction Builder** `multiSend` from the roster so all signers review one batch, not N transfers.
-5. **Confirm the token** — the asset must be canonical USDC (see [../02-contracts-and-multisigs/addresses.md](../02-contracts-and-multisigs/addresses.md)), never a homoglyph "USDС".
-6. **Cross-check decoded calldata** — recipient count and per-recipient amounts in the decoded batch must equal the roster. Confirm the **sum** matches the expected batch total.
-7. **Collect signatures and execute** — meet the main Safe threshold in [addresses.md](../02-contracts-and-multisigs/addresses.md) ([Safe Tx Service](https://app.safe.global/)). Each signer independently re-runs steps 3 and 6 before approving.
+1. **Update the roster.** Branch the previous month's roster; apply any agreed adds/removes/amount changes from the WG.
+2. **Diff vs. last month.** Produce an explicit diff (added, removed, changed). Every delta must trace to a WG decision. An unexplained diff blocks the run.
+3. **Verify each recipient ENS resolves.** Every address must reverse-resolve to its **expected** ENS name. A mismatch means a poisoned address slipped in. Stop.
+4. **Generate the batch.** Build the Safe **Transaction Builder** `multiSend` from the roster so all signers review one batch, not N transfers.
+5. **Confirm the token.** The asset must be canonical USDC (see [../02-contracts-and-multisigs/addresses.md](../02-contracts-and-multisigs/addresses.md)), never a homoglyph "USDС".
+6. **Cross-check decoded calldata.** Recipient count and per-recipient amounts in the decoded batch must equal the roster. Confirm the **sum** matches the expected batch total.
+7. **Collect signatures and execute.** Meet the main Safe threshold in [addresses.md](../02-contracts-and-multisigs/addresses.md) ([Safe Tx Service](https://app.safe.global/)). Each signer independently re-runs steps 3 and 6 before approving.
 
 ## After execution
 

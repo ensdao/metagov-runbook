@@ -23,9 +23,9 @@ runway top-ups pushed back to the Timelock  (see treasury-automation.md)
 ## Steps
 
 1. **A user registers or renews a `.eth` name.** Fees accrue in the [ETHRegistrarController(s)](https://docs.ens.domains/faq/).
-2. **Anyone calls `withdraw()`.** The sweep is **permissionless** — no privileged signer, no vote. Historically this swept ETH to `wallet.ensdao.eth`; under EP6.39 the **Registrar Manager** now owns the controllers and routes the ETH **directly to the Endowment Safe** (`endowment.ensdao.eth`).
-3. **karpatkey manages the proceeds** inside the Endowment under its DAO-voted permissions — including ETH→stables conversion via CoW Swap (no per-swap vote).
-4. **Operating runway is topped back up** from the Endowment to the Timelock via a scoped Zodiac permission — detailed in [treasury-automation.md](treasury-automation.md).
+2. **Anyone calls `withdraw()`.** The sweep is **permissionless**: no privileged signer, no vote. Historically this swept ETH to `wallet.ensdao.eth`; under EP6.39 the **Registrar Manager** now owns the controllers and routes the ETH **directly to the Endowment Safe** (`endowment.ensdao.eth`).
+3. **karpatkey manages the proceeds** inside the Endowment under its DAO-voted permissions, including ETH→stables conversion via CoW Swap (no per-swap vote).
+4. **Operating runway is topped back up** from the Endowment to the Timelock via a scoped Zodiac permission, detailed in [treasury-automation.md](treasury-automation.md).
 
 ## Notes
 

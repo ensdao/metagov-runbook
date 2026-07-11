@@ -1,4 +1,4 @@
-# Term 4 — Second Term 2023 (Q3/Q4 2023)
+# Term 4: Second Term 2023 (Q3/Q4 2023)
 
 **Dates:** 2023-07-01 09:00 UTC → 2023-12-31 (immediately prior to 2024-01-01) · **Cycle:** 6-month term · **WGs active:** Meta-Governance, ENS Ecosystem, Public Goods
 
@@ -46,9 +46,9 @@ No standalone executable comp proposal this term. Rates are defined in the MetaG
 
 The aggregate MetaGov comp line in EP 4.4.2 was stated as **$276,000 USDC** covering "nine stewards, one secretary, and one scribe role"; individual salaries were not disclosed.
 
-> ⚠️ **Open question:** The source also states a per-term (6-month) Lead Steward figure of $13,500, which is inconsistent with $4,500/mo. Reported as stated; the discrepancy is unresolved — not recomputed.
+> ⚠️ **Open question:** The source also states a per-term (6-month) Lead Steward figure of $13,500, which is inconsistent with $4,500/mo. Reported as stated; the discrepancy is unresolved, not recomputed.
 
-> ⚠️ **Open question:** Whether a Scribe role was actually filled this term, and by whom, is unverified — EP 4.4.2 budgets the line but no name was found.
+> ⚠️ **Open question:** Whether a Scribe role was filled this term, and by whom, is unverified. EP 4.4.2 budgets the line but no name was found.
 
 ## Multisig
 
@@ -61,10 +61,10 @@ The aggregate MetaGov comp line in EP 4.4.2 was stated as **$276,000 USDC** cove
 ## Activity
 
 - [Q3/Q4 2023 Meta-Governance Steward Election](https://snapshot.box/#/s:ens.eth/proposal/0x3585235855fd484251e01820c8cbf3e69174c0176496823b7b54be7a6b68b86c) (Snapshot, 2023-06-10 → 2023-06-15)
-- Steward Nominations — [Meta-Governance](https://discuss.ens.domains/t/steward-nominations-meta-governance-wg-q3-q4-2023-term/17227), [ENS Ecosystem](https://discuss.ens.domains/t/steward-nominations-ens-ecosystem-wg-q3-q4-2023-term/17228), [Public Goods](https://discuss.ens.domains/t/steward-nominations-public-goods-wg-q3-q4-2023-term/17226) WGs (2023-06)
+- Steward Nominations: [Meta-Governance](https://discuss.ens.domains/t/steward-nominations-meta-governance-wg-q3-q4-2023-term/17227), [ENS Ecosystem](https://discuss.ens.domains/t/steward-nominations-ens-ecosystem-wg-q3-q4-2023-term/17228), [Public Goods](https://discuss.ens.domains/t/steward-nominations-public-goods-wg-q3-q4-2023-term/17226) WGs (2023-06)
 - [EP 4.1 [Executable] Approve further actions and strategies for the Endowment](https://discuss.ens.domains/t/ep-4-1-executable-approve-further-actions-and-strategies-for-the-endowment/17406) (karpatkey, 2023-07)
-- [ENS DAO Steward Compensation](https://discuss.ens.domains/t/ens-dao-steward-compensation/18063) — MetaGov post defining per-role rates (2023-11-02)
-- [Q3/Q4 2023 ENS DAO Dashboard](https://discuss.ens.domains/t/q3-q4-2023-ens-dao-dashboard/17431) — roster, lead stewards, secretary (2023-12-24)
-- [Q3/Q4 2023 Budget discussion — ENS Ecosystem WG](https://discuss.ens.domains/t/q3-q4-2023-budget-ens-ecosystem-working-group/17536)
+- [ENS DAO Steward Compensation](https://discuss.ens.domains/t/ens-dao-steward-compensation/18063): MetaGov post defining per-role rates (2023-11-02)
+- [Q3/Q4 2023 ENS DAO Dashboard](https://discuss.ens.domains/t/q3-q4-2023-ens-dao-dashboard/17431): roster, lead stewards, secretary (2023-12-24)
+- [Q3/Q4 2023 Budget discussion: ENS Ecosystem WG](https://discuss.ens.domains/t/q3-q4-2023-budget-ens-ecosystem-working-group/17536)
 
 _as of 2026-06-20_

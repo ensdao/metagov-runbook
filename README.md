@@ -4,9 +4,9 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/license-CC--BY--4.0-lightgrey.svg)](LICENSE)
 ![status: draft](https://img.shields.io/badge/status-draft%20·%20pending%20steward%20review-orange)
 
-Documentation and operational runbook for the **ENS DAO Meta-Governance Working Group** — the context needed to *run* the group: how the DAO is governed, what Meta-Gov controls (multisigs, contracts, treasury), the critical proposals that shaped the rules, the recurring operational routines, and a per-term institutional-memory archive.
+Documentation and operational runbook for the **ENS DAO Meta-Governance Working Group**. The context needed to *run* the group: how the DAO is governed, what Meta-Gov controls (multisigs, contracts, treasury), the critical proposals that shaped the rules, the recurring operational routines, and a per-term institutional-memory archive.
 
-Public, plain-markdown, navigable from the GitHub UI. The emphasis is **operational** — how things are managed and run, not financial analysis. _Current as of 2026-06-20._
+Public, plain-markdown, navigable from the GitHub UI. The emphasis is **operational**: how things are managed and run, not financial analysis. _Current as of 2026-06-20._
 
 > **Current state:** ENS is transitioning into **Term 7 (1 Jul 2026 – 30 Jun 2027)**. Following the "ENS Retro," Meta-Governance is becoming the **sole Working Group** (Ecosystem and Public Goods dissolved), and the term cycle shifted to a July–June anchor. Items still in motion are tracked in [OPEN-QUESTIONS.md](OPEN-QUESTIONS.md).
 
@@ -16,7 +16,7 @@ Public, plain-markdown, navigable from the GitHub UI. The emphasis is **operatio
 
 ## Start here
 
-New steward? Begin with **[onboarding](04-runbook/onboarding.md)** — it walks you from governance basics to your first signature in order.
+New steward? Begin with **[onboarding](04-runbook/onboarding.md)**. It walks you from governance basics to your first signature in order.
 
 ## Sections
 
@@ -33,7 +33,7 @@ Also: [directory.md](directory.md) (who's-who + how to reach them) · [OPEN-QUES
 
 ## Runbook
 
-Start with **[verification & safety](04-runbook/verification-and-safety.md)** — read it before approving any transaction.
+Start with **[verification & safety](04-runbook/verification-and-safety.md)**. Read it before approving any transaction.
 
 | Procedure | When | File |
 |---|---|---|
@@ -51,8 +51,8 @@ Start with **[verification & safety](04-runbook/verification-and-safety.md)** �
 
 ## How to use & contribute
 
-- Every concrete claim links to its source (forum, docs, Snapshot, Tally, Etherscan, Safe). **Verify on-chain before signing** — see [verification & safety](04-runbook/verification-and-safety.md).
-- Unverified or in-motion items are **not asserted** — they live in [OPEN-QUESTIONS.md](OPEN-QUESTIONS.md) for resolution.
+- Every concrete claim links to its source (forum, docs, Snapshot, Tally, Etherscan, Safe). **Verify on-chain before signing**. See [verification & safety](04-runbook/verification-and-safety.md).
+- Unverified or in-motion items are **not asserted**. They live in [OPEN-QUESTIONS.md](OPEN-QUESTIONS.md) for resolution.
 - Edits go through pull request. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License

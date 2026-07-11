@@ -1,12 +1,12 @@
 # Contributing to this runbook
 
-This is the operational runbook for the ENS DAO [Meta-Governance Working Group](https://discuss.ens.domains/t/path-forward-on-working-groups-for-term-7/22107) — the sole operational Working Group as of Term 7. It documents **how** Meta-Gov runs the DAO: structure, contracts, treasury, and procedures.
+This is the operational runbook for the ENS DAO [Meta-Governance Working Group](https://discuss.ens.domains/t/path-forward-on-working-groups-for-term-7/22107), the sole operational Working Group as of Term 7. It documents **how** Meta-Gov runs the DAO: structure, contracts, treasury, and procedures.
 
 ## How to propose an edit
 
-1. **Open a PR** against this repo. Keep changes scoped — one topic per PR.
+1. **Open a PR** against this repo. Keep changes scoped, one topic per PR.
 2. **Cite every concrete claim** with an inline markdown link to a primary source (docs.ens.domains, the [governance-docs repo](https://github.com/ensdomains/governance-docs), the forum, Etherscan, or the Safe API).
-3. **Single source of truth — do not restate volatile facts.** Each fact has exactly one owner file; everywhere else links to it, never re-states the value:
+3. **Single source of truth: do not restate volatile facts.** Each fact has exactly one owner file; everywhere else links to it, never re-states the value:
    - **Addresses & Safe thresholds** → [`02-contracts-and-multisigs/addresses.md`](02-contracts-and-multisigs/addresses.md)
    - **Dates, rates, member lists, and EP-series** (election dates, compensation rates, council/steward rosters, "Update #N" and EP numbering) → their owner section file.
 
@@ -15,7 +15,7 @@ This is the operational runbook for the ENS DAO [Meta-Governance Working Group](
 
 ### Exception: full addresses in runbook steps
 
-A full `0x…` address **may** be inlined in a `04-runbook/` procedure step where a signer reads it at the point of signing — copying an address out of a linked table is itself an error surface. When you do, add a note to **verify against [`02-contracts-and-multisigs/addresses.md`](02-contracts-and-multisigs/addresses.md)** so the canonical table stays the arbiter. This is the only place a raw address is duplicated on purpose.
+A full `0x…` address **may** be inlined in a `04-runbook/` procedure step where a signer reads it at the point of signing. Copying an address out of a linked table is itself an error surface. When you do, add a note to **verify against [`02-contracts-and-multisigs/addresses.md`](02-contracts-and-multisigs/addresses.md)** so the canonical table stays the arbiter. This is the only place a raw address is duplicated on purpose.
 
 ## Ownership
 
@@ -23,7 +23,7 @@ The Meta-Governance stewards own this runbook. PRs are reviewed and merged by th
 
 ## Validation
 
-`scripts/verify.py` runs in **CI** on every PR — it checks relative links, unfilled template tokens, and address consistency against [`02-contracts-and-multisigs/addresses.md`](02-contracts-and-multisigs/addresses.md). Run it locally (`python3 scripts/verify.py`) before pushing; a red check blocks merge.
+`scripts/verify.py` runs in **CI** on every PR. It checks relative links, unfilled template tokens, and address consistency against [`02-contracts-and-multisigs/addresses.md`](02-contracts-and-multisigs/addresses.md). Run it locally (`python3 scripts/verify.py`) before pushing; a red check blocks merge.
 
 ## Freshness policy
 

@@ -1,4 +1,4 @@
-# Term 5 — Calendar 2024 (first annual term)
+# Term 5: Calendar 2024 (first annual term)
 
 **Dates:** 2024-01-01 09:00 UTC – 2024-12-31 · **Cycle:** annual (first year-long term; prior terms were 6-month) · **WGs active:** Meta-Governance, ENS Ecosystem, Public Goods
 
@@ -67,15 +67,15 @@ Each WG disbursed via a 3-of-4 Safe. Addresses and current owners are in the can
 
 ## Activity
 
-- [Call for Nominations — Term 5 Steward Elections](https://discuss.ens.domains/t/call-for-nominations-for-term-5-steward-elections-calendar-2024/18296) (first annual term; voting Dec 10–15 2023, 10,000-vote threshold)
+- [Call for Nominations: Term 5 Steward Elections](https://discuss.ens.domains/t/call-for-nominations-for-term-5-steward-elections-calendar-2024/18296) (first annual term; voting Dec 10–15 2023, 10,000-vote threshold)
 - Steward elections: [Meta-Gov](https://snapshot.box/#/s:ens.eth/proposal/0x5867a23b1b607344bde89a733e195ba07480cd53d490c73002725ee0e430dd40) · [ENS Ecosystem](https://snapshot.box/#/s:ens.eth/proposal/0x6ebef8ee7169fd81bd87691e8dad852e2fa677bd52eedf0fd2da3623f489cd3d) · [Public Goods](https://snapshot.box/#/s:ens.eth/proposal/0x00bd3f6c317331cb20e8123d9423538ddde87e74d4caa54becb50ef56f999561)
-- [Conflict-of-interest discussion re: slobo.eth](https://discuss.ens.domains/t/slobo-eth-stepping-down-as-steward-due-to-conflict-of-interests-cant-be-steward-and-recipient-of-funds-at-the-same-time/18738) (Ecosystem steward + service-provider recipient) — resolved by recusal, not resignation (Feb 2024)
+- [Conflict-of-interest discussion re: slobo.eth](https://discuss.ens.domains/t/slobo-eth-stepping-down-as-steward-due-to-conflict-of-interests-cant-be-steward-and-recipient-of-funds-at-the-same-time/18738) (Ecosystem steward + service-provider recipient). Resolved by recusal, not resignation (Feb 2024)
 - [MetaGov Q1/Q2 funding controversy](https://discuss.ens.domains/t/5-4-1-social-funding-request-ens-meta-governance-working-group-term-5-q1-q2/18883): EP5.4.1 (105k ENS) passed narrowly amid pushback; resubmitted as EP5.9.1/EP5.11 (150k ENS), executed Jul 7 2024
-- [EP5.8 — ENS Steward Vesting Proposal](https://docs.ens.domains/dao/proposals/5.8/) (governance-token vesting for Term 5 stewards)
-- [EP5.24 — Term 5 Q4 Collective WG Funding](https://discuss.ens.domains/t/ep-5-24-executable-term-5-q4-collective-working-group-funding-proposal/19801) (1,316,000 USDC across 3 WGs) — disputed, resubmitted as EP5.25 (Oct 2024)
+- [EP5.8: ENS Steward Vesting Proposal](https://docs.ens.domains/dao/proposals/5.8/) (governance-token vesting for Term 5 stewards)
+- [EP5.24: Term 5 Q4 Collective WG Funding](https://discuss.ens.domains/t/ep-5-24-executable-term-5-q4-collective-working-group-funding-proposal/19801) (1,316,000 USDC across 3 WGs). Disputed, resubmitted as EP5.25 (Oct 2024)
 - [Meta-Gov special election](https://discuss.ens.domains/t/term-5-meta-governance-working-group-special-election/19814) after avsa.eth resignation: Nick Johnson elected (James withdrew in favor of Nick); steward from 2024-11-11 to term end (Nov 2024)
-- [Term 5 WG Spending Summary — 2024 Q4](https://discuss.ens.domains/t/term-5-working-group-spending-summary-2024-q4/20170) (authored by limes.eth; notes avsa declined Nov/Dec comp after resignation)
-- [Term 5 Grants — Summary](https://discuss.ens.domains/t/term-5-grants-summary/18921) (Ecosystem WG grant program recap)
+- [Term 5 WG Spending Summary: 2024 Q4](https://discuss.ens.domains/t/term-5-working-group-spending-summary-2024-q4/20170) (authored by limes.eth; notes avsa declined Nov/Dec comp after resignation)
+- [Term 5 Grants: Summary](https://discuss.ens.domains/t/term-5-grants-summary/18921) (Ecosystem WG grant program recap)
 
 ---
 _Source facts: term timeline + per-term detail. See [directory.md](../directory.md), [governance-history.md](../reference/governance-history.md)._

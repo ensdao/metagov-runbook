@@ -8,9 +8,9 @@ karpatkey is **not** a Safe signer. It operates the endowment only through a **Z
 
 ## Manager selection & policy
 
-- **Manager selection** — karpatkey was selected over other candidates via ranked-choice vote [EP2.2.5](https://snapshot.box/#/s:ens.eth/proposal/0x1ab7ef84f6e904582d5b5b921944b5b1a8e36dbff1f1248fde87fef02b046816) (Nov 2022), establishing the manager relationship and fee model.
-- **Investment Policy Statement (IPS)** — [EP5.20](https://docs.ens.domains/dao/proposals/5.20/) (Snapshot, Oct 2024) is the governing IPS for asset allocation and the manager mandate.
-- **Fees** — 0.5%/yr management fee (paid **monthly in ETH**) + 10% performance fee on yields. The management fee is paid without a per-payment vote via a Safe Allowance Module — see [spending-controls.md](spending-controls.md).
+- **Manager selection**: karpatkey was selected over other candidates via ranked-choice vote [EP2.2.5](https://snapshot.box/#/s:ens.eth/proposal/0x1ab7ef84f6e904582d5b5b921944b5b1a8e36dbff1f1248fde87fef02b046816) (Nov 2022), establishing the manager relationship and fee model.
+- **Investment Policy Statement (IPS)**: [EP5.20](https://docs.ens.domains/dao/proposals/5.20/) (Snapshot, Oct 2024) is the governing IPS for asset allocation and the manager mandate.
+- **Fees**: 0.5%/yr management fee (paid **monthly in ETH**) + 10% performance fee on yields. The management fee is paid without a per-payment vote via a Safe Allowance Module. See [spending-controls.md](spending-controls.md).
 
 ## Funding tranches
 
@@ -25,4 +25,4 @@ karpatkey is **not** a Safe signer. It operates the endowment only through a **Z
 - **Monthly** endowment reports posted by karpatkey ([rolling thread](https://discuss.ens.domains/t/endowment-monthly-reports/17614)); **monthly** financial updates from Steakhouse.
 - **Weekly** endowment updates + **monthly** financial updates presented at Meta-Gov calls.
 - **Biannual / annual** forum reviews.
-- Live figures: **[reports.kpk.io/ens](https://reports.kpk.io/ens)** — _as of 2026-06-20_, prefer this over any hardcoded AUM.
+- Live figures: **[reports.kpk.io/ens](https://reports.kpk.io/ens)** (_as of 2026-06-20_), prefer this over any hardcoded AUM.

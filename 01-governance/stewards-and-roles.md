@@ -9,9 +9,9 @@ Each Working Group is run by elected Stewards, with role definitions set out in 
 | **Steward** | Elected per the [election cycle](elections.md); three seats per Working Group. | Run the Working Group; reallocate within approved budget (WG Rule 10.5). |
 | **Lead Steward** | Appointed from the elected stewards within **5 days** of term start. Removable by simple majority of the group's stewards. | Operational management, approving resource requests, initiating fund disbursement, posting DAO updates. |
 | **Secretary** | Appointed by majority vote of all stewards. | Coordinates cross-WG communication and meetings; serves as a multisig keyholder; compensated by Meta-Gov. |
-| **Scribe** | — | _Not documented in the available sources._ |
+| **Scribe** | n/a | _Not documented in the available sources._ |
 
-> ⚠️ **Open question:** Whether the Secretary role is retained now that Meta-Gov is the sole Working Group is unverified — its cross-WG-coordination purpose is reduced, and the ["Path forward"](https://discuss.ens.domains/t/path-forward-on-working-groups-for-term-7/22107) thread indicates Term 7 stewards may opt not to appoint one (duties handled collectively).
+> ⚠️ **Open question:** Whether the Secretary role is retained now that Meta-Gov is the sole Working Group is unverified. Its cross-WG-coordination purpose is reduced, and the ["Path forward"](https://discuss.ens.domains/t/path-forward-on-working-groups-for-term-7/22107) thread indicates Term 7 stewards may opt not to appoint one (duties handled collectively).
 
 ## The multisig seat model
 

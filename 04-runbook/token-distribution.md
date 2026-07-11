@@ -6,18 +6,18 @@ ENS token distributions (e.g. the token-distribution program under EP5.26) are f
 
 ## The two-step template
 
-1. **`approve(ENS)`** — approve the ENS token spend to the **Hedgey BatchPlanner** (`0x3466EB008EDD8d5052446293D1a7D212cb65C646` — verify against [addresses.md](../02-contracts-and-multisigs/addresses.md)).
-2. **`batchVestingPlans`** — call BatchPlanner with the array of recipient plans.
+1. **`approve(ENS)`.** Approve the ENS token spend to the **Hedgey BatchPlanner** (`0x3466EB008EDD8d5052446293D1a7D212cb65C646`, verify against [addresses.md](../02-contracts-and-multisigs/addresses.md)).
+2. **`batchVestingPlans`.** Call BatchPlanner with the array of recipient plans.
 
-Both steps go in one Safe **Transaction Builder** batch so signers review them together ([Safe Tx Service](https://app.safe.global/)). The BatchPlanner address and the ENS token are in [../02-contracts-and-multisigs/addresses.md](../02-contracts-and-multisigs/addresses.md) — verify both there.
+Both steps go in one Safe **Transaction Builder** batch so signers review them together ([Safe Tx Service](https://app.safe.global/)). The BatchPlanner address and the ENS token are in [../02-contracts-and-multisigs/addresses.md](../02-contracts-and-multisigs/addresses.md). Verify both there.
 
 ## Mandatory pre-sign checks
 
-- **`approve` total == sum of plan amounts.** Add up every plan's amount in the `batchVestingPlans` array; it must equal the `approve` value **exactly**. An approve larger than the plan sum leaves a standing allowance — do not sign.
-- **Spender is the canonical BatchPlanner** — confirm step 1 approves `0x3466EB…C646`, not a lookalike.
+- **`approve` total == sum of plan amounts.** Add up every plan's amount in the `batchVestingPlans` array; it must equal the `approve` value **exactly**. An approve larger than the plan sum leaves a standing allowance. Do not sign.
+- **Spender is the canonical BatchPlanner.** Confirm step 1 approves `0x3466EB…C646`, not a lookalike.
 - **Each recipient resolves to its expected ENS name** and matches the governing EP's recipient list.
 - **Total matches the EP.** The aggregate distributed must equal the amount the governing EP authorized.
-- **Decoded calldata reviewed** — read the decoded batch in the Transaction Builder before approving.
+- **Decoded calldata reviewed.** Read the decoded batch in the Transaction Builder before approving.
 
 ## Link the governing EP
 

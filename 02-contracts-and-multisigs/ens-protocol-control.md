@@ -2,11 +2,11 @@
 
 Distinct from treasury power: this is who controls the **ENS name system** itself. Ultimately the DAO administers it through the Timelock and the Root contract. Addresses in [addresses.md](addresses.md).
 
-## The Root contract — `root.ens.eth`
+## The Root contract: `root.ens.eth`
 
 Controls allocation and replacement of **all TLDs except `.eth`** (which is permanently locked to the `.eth` registrar), and the TLD→registrar mapping. Root ownership was moved toward the DAO by social proposal **EP 4.10** ([Transfer ENS Root Key Ownership to the DAO](https://docs.ens.domains/dao/proposals/4.10/)), away from the legacy 7-keyholder `multisig.ens.eth`.
 
-> ⚠️ **Open question:** The Root owner currently resolves to `0x4Fe4e666…e3e0e8` (a DAO-side controller). This is **not** the same address as `wallet.ensdao.eth` (the Timelock). Whether it is the Timelock proper, a dedicated DAO-controlled root multisig, or a wrapper is unverified — the exact DAO→root chain of control needs confirmation.
+> ⚠️ **Open question:** The Root owner currently resolves to `0x4Fe4e666…e3e0e8` (a DAO-side controller). This is **not** the same address as `wallet.ensdao.eth` (the Timelock). Whether it is the Timelock proper, a dedicated DAO-controlled root multisig, or a wrapper is unverified. The exact DAO→root chain of control needs confirmation.
 
 ## Core protocol contracts
 
