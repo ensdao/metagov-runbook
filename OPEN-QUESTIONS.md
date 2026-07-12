@@ -47,6 +47,8 @@ Items that **could not be verified** from a primary source, or that are **in mot
   _Refs: [04-runbook/verification-and-safety.md](04-runbook/verification-and-safety.md), [04-runbook/monthly-compensation.md](04-runbook/monthly-compensation.md)._
 - **Q-17: SPP2 stream details & pod membership.** Current per-provider stream rates / remaining durations (basic vs extended scopes), stream on/off-boarding handling, and the exact Stream Management Pod signers are unconfirmed.
   _Refs: [03-treasury-and-endowment/service-provider-program.md](03-treasury-and-endowment/service-provider-program.md), [directory.md](directory.md)._
+- **Q-28: ENS Contract Naming Season — return of remaining ENS.** The program (Nov 2025 – Apr 2026) received 75,000 USDC (~fully deployed) and 10,000 ENS (7,095 distributed across 50 wallets); 2,905 ENS (+ USDC dust) remain unallocated. [Thread 22229](https://discuss.ens.domains/t/ens-contract-naming-season-accountability-summary-and-open-question-on-remaining-funds/22229) confirms resolving this falls to Meta-Gov Stewards: return the remainder to the DAO or roll it into a future program, and — if returned — to which recipient address (`wallet.ensdao.eth` proposed, unconfirmed).
+  _Refs: no dedicated owner file exists for this program yet; see [03-treasury-and-endowment/README.md](03-treasury-and-endowment/README.md) if one is created._
 
 ## Directory & audits
 
