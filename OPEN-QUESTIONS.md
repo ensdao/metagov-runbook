@@ -69,8 +69,6 @@ Items that **could not be verified** from a primary source, or that are **in mot
   _Refs: [02-contracts-and-multisigs/multisigs.md](02-contracts-and-multisigs/multisigs.md), [05-terms/README.md](05-terms/README.md)._
 - **Q-25: Scribe holders.** The Scribe role is funded from Term 4 onward but the person holding it in Terms 4–7 was not identified.
   _Refs: [01-governance/stewards-and-roles.md](01-governance/stewards-and-roles.md), [05-terms/README.md](05-terms/README.md)._
-- **Q-26: netto.eth vs estmcmxci handle.** The Term 6 Dashboard lists netto.eth's forum handle as "estmcmxci" (Marcus/estmcmxci.eth), likely a dashboard artifact; confirm they are distinct people and the Meta-Gov seat belongs to netto.eth.
-  _Refs: [05-terms/term-06.md](05-terms/term-06.md), [directory.md](directory.md)._
 - **Q-27: Term 2 combined funding executable.** On-chain IDs / Tally links for the combined Term 2 collective funding executable (EP16.1/16.2/16.3 → docs EP2.2.x) not retrieved.
   _Refs: [05-terms/term-02.md](05-terms/term-02.md), [reference/governance-history.md](reference/governance-history.md)._
 
