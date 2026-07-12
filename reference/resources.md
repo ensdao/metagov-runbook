@@ -13,7 +13,7 @@ Authoritative links a Meta-Gov steward or delegate needs to run and monitor the 
 | Working Group Rules | https://docs.ens.domains/dao/wg/rules/ |
 | Stewards roster | https://docs.ens.domains/dao/stewards/ |
 | Security Council | https://docs.ens.domains/dao/security-council/ |
-| Proposals archive (per-EP) | https://docs.ens.domains/dao/proposals/ |
+| Proposals archive (per-EP) | https://ens.gov.blockful.io/proposals |
 | `governance-docs` repo (draft PRs) | https://github.com/ensdomains/governance-docs |
 
 ## Forum (discuss.ens.domains)
