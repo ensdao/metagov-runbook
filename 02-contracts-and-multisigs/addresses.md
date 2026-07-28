@@ -31,6 +31,12 @@
 | Registrar Manager (EP 6.39) | n/a | `0x62627681D92e36b9aeE1D9A6BF181373ccd42552` | Owns controllers; permissionless `withdraw()` → endowment | [EP 6.39 thread](https://discuss.ens.domains/t/executable-treasury-flow-automation/21923) |
 | Hedgey BatchPlanner | n/a | `0x3466EB008EDD8d5052446293D1a7D212cb65C646` | Token-vesting batch planner | [EP 5.26 context](https://www.tally.xyz/gov/ens) |
 
+## Tokens
+
+| Name | Address | Notes | Source |
+|------|---------|-------|--------|
+| USDC | `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48` | 6 decimals; the WG compensation / stream token | [Etherscan](https://etherscan.io/token/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48) |
+
 ## Security Council
 
 | Name | ENS | Address | Type / threshold | Source |

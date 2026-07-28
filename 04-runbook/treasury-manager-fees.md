@@ -27,6 +27,10 @@ The fee runs through the Gnosis **Allowance Module** (`0xCFbFaC74C26F8647cBDb8c5
 
 Addresses are canonical in [../02-contracts-and-multisigs/addresses.md](../02-contracts-and-multisigs/addresses.md).
 
+## Generating the payment
+
+Run [`scripts/manager_fee_to_safe.py`](../scripts/manager_fee_to_safe.py) `--amount-eth <karpatkey's figure for the month>` to emit the Safe Transaction Builder batch for the `executeAllowanceTransfer` call. Import it in the Safe app and verify every field (the amount, and the fee-Safe destination) before signing. The script rejects amounts above the 30 ETH cap.
+
 ## Monthly reconciliation
 
 1. Pull the month's `executeAllowanceTransfer` ETH amount from the endowment Safe.
