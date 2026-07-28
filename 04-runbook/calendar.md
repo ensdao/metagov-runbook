@@ -38,6 +38,6 @@ The recurring operational cadence the Meta-Gov WG runs. Most items live on the [
 |---|---|---|
 | Weekly | **MetaGov WG call** | Tuesdays 9am ET in 2026; one thread per year ([2026 thread](https://discuss.ens.domains/t/metagov-working-group-2026-meetings-tuesdays-at-9am-et/21799)). |
 | Per season | **Service Provider Program** | Application round → Copeland selection → quarterly per-provider reports. SPP3 applications opened May 2026 (thread [22131](https://discuss.ens.domains/t/22131)). |
-| ~2-yearly | **Security Council renewal / liveness** | Council veto authority must be renewed before it auto-expires → [security-council](../02-contracts-and-multisigs/security-council.md). |
+| ~2-yearly | **Security Council renewal / liveness** | Council veto authority must be renewed before it auto-expires. Last renewed 2026-07-22 (the 2024 council expired 2026-07-24) → [security-council](../02-contracts-and-multisigs/security-council.md). |
 
 > ⚠️ **Open question:** Whether the quarterly funding windows (historically Jan/Apr/Jul/Oct) shift with the new July–June term cycle is not yet documented.

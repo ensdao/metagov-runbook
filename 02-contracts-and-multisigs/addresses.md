@@ -41,11 +41,11 @@
 
 | Name | ENS | Address | Type / threshold | Source |
 |------|-----|---------|------------------|--------|
-| SecurityCouncil contract (2024) | n/a | `0xb8fa0ce3f91f41c5292d07475b445c35ddf63ee0` | Holds PROPOSER_ROLE; cancel-only | [EP 5.13](https://docs.ens.domains/dao/proposals/5.13/) |
-| Security Council multisig | n/a | `0xaA5cD05f6B62C3af58AE9c4F3F7A2aCC2Cdc2Cc7` | Safe, 4/8 | [docs](https://docs.ens.domains/dao/security-council/) |
+| SecurityCouncil contract (2026, current) | n/a | `0x2acBf518b3759f6e1fA163294eda55bF1d0ae051` | Holds PROPOSER_ROLE (granted 2026-07-22); cancel-only | [executed tx](https://etherscan.io/tx/0xb2f732c433471ce5274c77d1fe04bd060389319a3b32dfa26ee16164ef46812f) |
+| Security Council multisig (2026, current) | n/a | `0x7101B78638e34444F0a5AdE9e1149fbEeC029931` | Safe, 5/8 | [Etherscan](https://etherscan.io/address/0x7101B78638e34444F0a5AdE9e1149fbEeC029931) |
+| SecurityCouncil contract (2024, superseded) | n/a | `0xb8fa0ce3f91f41c5292d07475b445c35ddf63ee0` | Held PROPOSER_ROLE; cancel-only; veto power expired 2026-07-24 | [EP 5.13](https://docs.ens.domains/dao/proposals/5.13/) |
+| Security Council multisig (2024, superseded) | n/a | `0xaA5cD05f6B62C3af58AE9c4F3F7A2aCC2Cdc2Cc7` | Safe, 4/8 | [docs](https://docs.ens.domains/dao/security-council/) |
 | Legacy `veto.ensdao.eth` | `veto.ensdao.eth` | `0x552DF471a4c7Fea11Ea8d7a7b0Acc6989b902a95` | Predecessor cancel contract | [EP 5.7 thread](https://discuss.ens.domains/t/introducing-veto-ensdao-eth/19088) |
-
-> The 2026 Nethermind-audited renewal contract has **no on-chain address yet** (temp-check stage). See [security-council.md](security-council.md).
 
 ## ENS protocol contracts
 

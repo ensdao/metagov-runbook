@@ -23,9 +23,9 @@ Items that **could not be verified** from a primary source, or that are **in mot
 
 ## Security Council
 
-- **Q-09: 2026 renewal status.** As of 2026-06-20 the Nethermind-audited renewal is at **temp-check only** ([22145](https://discuss.ens.domains/t/temp-check-renewal-of-the-security-council/22145)). No EP number, no deployed contract address, no `grantRole(PROPOSER_ROLE,…)` tx. The 2024 council's veto expires **2026-07-24**, so the renewal must land before then.
+- **Q-09: 2026 Security Council renewal (mostly resolved).** Executed 2026-07-22: a new `SecurityCouncil` contract (`0x2acBf5…ae051`) and a new 5-of-8 council Safe (`0x7101B7…9931`) were established, granting PROPOSER_ROLE before the 2024 veto expired 2026-07-24. Recorded in [security-council.md](02-contracts-and-multisigs/security-council.md). Residual: the executed proposal's canonical EP/docs number is unconfirmed (the defeated first attempt was EP 6.48).
   _Refs: [02-contracts-and-multisigs/security-council.md](02-contracts-and-multisigs/security-council.md), [02-contracts-and-multisigs/addresses.md](02-contracts-and-multisigs/addresses.md)._
-- **Q-10: Council Safe ↔ member mapping.** EP 5.10 names 8 members; confirm the on-chain 4/8 Safe (`0xaA5cD0…2Cc7`) owners match those identities and threshold = 4.
+- **Q-10: New council member roster.** Confirm the 8 owner addresses of the 2026 council Safe (`0x7101B7…9931`, threshold 5) map to named members, per the [executed proposal](https://www.tally.xyz/gov/ens/proposal/77767899528494238518019756391533686963875234067646094287125791110488147463806). The `0x8E52ca…` signer is reported as securitycouncil.coltron.eth (unverified).
   _Refs: [02-contracts-and-multisigs/security-council.md](02-contracts-and-multisigs/security-council.md), [02-contracts-and-multisigs/addresses.md](02-contracts-and-multisigs/addresses.md), [directory.md](directory.md)._
 
 ## Contracts & addresses
