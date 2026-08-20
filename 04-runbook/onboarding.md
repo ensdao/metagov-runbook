@@ -24,5 +24,5 @@ Complete these before an existing signer adds you via `addOwnerWithThreshold` / 
 ## Get connected
 
 - Join the **Meta-Gov Stewards** forum group and introduce yourself.
-- Add the **weekly MetaGov WG call** (Tuesdays) to your calendar.
+- Add the **bi-weekly MetaGov WG call** (Thursdays 16:00 UTC) to your calendar ([Term 7 thread](https://discuss.ens.domains/t/meta-gov-working-group-term-7-meetings-thursday-4pm-utc-bi-weekly/22280)).
 - Group + call links: [../reference/resources.md](../reference/resources.md); full cadence: [calendar.md](calendar.md).

@@ -14,10 +14,21 @@
 
 | Name | ENS | Address | Type / threshold | Source |
 |------|-----|---------|------------------|--------|
-| Meta-Gov main Safe | `main.mg.wg.ens.eth` | `0x91c32893216dE3eA0a55ABb9851f581d4503d39b` | Safe, 3/4 | [Safe API](https://api.safe.global/tx-service/eth/api/v1/safes/0x91c32893216dE3eA0a55ABb9851f581d4503d39b/) |
+| Meta-Gov main Safe | `main.mg.wg.ens.eth` | `0x91c32893216dE3eA0a55ABb9851f581d4503d39b` | Safe, 2/4 | [Safe API](https://api.safe.global/tx-service/eth/api/v1/safes/0x91c32893216dE3eA0a55ABb9851f581d4503d39b/) |
 | SPP stream safe | `stream.mg.wg.ens.eth` | `0xB162Bf7A7fD64eF32b787719335d06B2780e31D1` | Safe, 1/2 | [Safe API](https://api.safe.global/tx-service/eth/api/v1/safes/0xB162Bf7A7fD64eF32b787719335d06B2780e31D1/) |
 | Ecosystem main Safe (legacy) | `main.eco.wg.ens.eth` | `0x2686A8919Df194aA7673244549E68D42C1685d03` | Safe, 3/4 | [Safe API](https://api.safe.global/tx-service/eth/api/v1/safes/0x2686A8919Df194aA7673244549E68D42C1685d03/) |
 | Public Goods main Safe (legacy) | `main.pg.wg.ens.eth` | `0xcD42b4c4D102cc22864e3A1341Bb0529c17fD87d` | Safe, 3/4 | [Safe API](https://api.safe.global/tx-service/eth/api/v1/safes/0xcD42b4c4D102cc22864e3A1341Bb0529c17fD87d/) |
+
+### Meta-Gov Safe signers (Term 7)
+
+Owners of `main.mg.wg.ens.eth`, threshold 2. Verified on-chain 2026-08-19 (nonce 243). Signer composition and the Timelock seat are explained in [multisigs.md](multisigs.md).
+
+| Owner ENS | Address | Seat |
+|-----------|---------|------|
+| `steward.netto.eth` | `0x75d91395CD36f24f990bbdE69993cB20B96EcFa6` | Steward (Lead) |
+| `steward.sovereignsignal.eth` | `0x7d7e46bEF5064CFae2CeD5CC627141005D1cDe76` | Steward |
+| `steward.abdullahumar.eth` | `0x7Bd3AB8fA37d63c04a8d0BeE3298088C0f366709` | Steward |
+| `wallet.ensdao.eth` | `0xFe89cc7aBB2C4183683ab71653C4cdc9B02D44b7` | DAO Timelock (see governance core above) |
 
 ## Endowment & treasury automation
 

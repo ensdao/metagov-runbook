@@ -45,11 +45,11 @@ Under the winning "Metagov only" option, Secretary and Scribe are **not** ballot
 
 | WG | Safe | Threshold |
 |----|------|-----------|
-| Meta-Governance (`main.mg.wg.ens.eth`) | [see addresses.md](../02-contracts-and-multisigs/addresses.md) | 3 of 4 |
+| Meta-Governance (`main.mg.wg.ens.eth`) | [see addresses.md](../02-contracts-and-multisigs/addresses.md) | 2 of 4 |
 
-The signer set is still the **Term 6 set** (3 of 4), confirmed via the [Safe API](https://api.safe.global/tx-service/eth/api/v1/safes/0x91c32893216dE3eA0a55ABb9851f581d4503d39b/) on 2026-07-11 (nonce 235). The rotation to the elected Term 7 stewards had not occurred on-chain.
+The Term 7 signer rotation is **executed**. The Safe is **2 of 4**: the three elected stewards plus the DAO Timelock (`wallet.ensdao.eth`) in place of the former Secretary seat. Confirmed via the [Safe API](https://api.safe.global/tx-service/eth/api/v1/safes/0x91c32893216dE3eA0a55ABb9851f581d4503d39b/) and a direct `getThreshold()` / `getOwners()` call on 2026-08-19 (nonce 243). Roster in [addresses.md](../02-contracts-and-multisigs/addresses.md); rationale in [multisigs.md](../02-contracts-and-multisigs/multisigs.md).
 
-> ⚠️ **Open question:** The Term 7 signer rotation (and any move to 2-of-3) is pending. As of 2026-07-11 the Safe remains 3 of 4 with the Term 6 owners.
+Note the outcome differs from the 2-of-3 anticipated in the ["Path forward"](https://discuss.ens.domains/t/path-forward-on-working-groups-for-term-7/22107) thread.
 
 ## Activity
 

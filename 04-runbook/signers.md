@@ -20,4 +20,4 @@ On a seat change (see [elections](../01-governance/elections.md)):
 
 Before and after rotation, **verify each owner resolves to the expected `steward.*` name** (via `getOwners()` on the Safe). The incoming signer should provision their dedicated hardware wallet and `steward.<ens>.eth` subdomain **before** being added.
 
-> ⚠️ **Open question:** The [Path forward vote](https://discuss.ens.domains/t/path-forward-on-working-groups-for-term-7/22107) indicates Term 7 moves toward **2-of-3** signing with the Secretary optional. Re-verify the Safe threshold and owner set after the Term 7 transition before applying these rotation steps.
+**Term 7 state (verified on-chain 2026-08-19):** the Safe is **2 of 4**, the three elected stewards plus the DAO Timelock. Not the 2-of-3 anticipated by the [Path forward vote](https://discuss.ens.domains/t/path-forward-on-working-groups-for-term-7/22107). Always re-verify the live threshold and owner set in [addresses.md](../02-contracts-and-multisigs/addresses.md) against the chain before applying these rotation steps.

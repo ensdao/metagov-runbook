@@ -14,7 +14,7 @@ Public identities only (ENS / forum handles). Addresses live in [02-contracts-an
 
 | Role | Holder(s) | Notes |
 |---|---|---|
-| Meta-Gov Stewards (Term 7, elected) | netto.eth, sovereignsignal.eth, abdullahumar.eth | Elected 25–30 Jun 2026 ([result 2026-07-01](https://discuss.ens.domains/t/meta-governance-working-group-steward-nominations-term-7-2026/22157)). Signer rotation pending: the Safe is still the Term 6 3/4 set as of 2026-07-11. |
+| Meta-Gov Stewards (Term 7, elected) | netto.eth, sovereignsignal.eth, abdullahumar.eth | Elected 25–30 Jun 2026 ([result 2026-07-01](https://discuss.ens.domains/t/meta-governance-working-group-steward-nominations-term-7-2026/22157)). Signer rotation **executed**; the Safe is 2/4 with the three stewards plus the DAO Timelock, verified on-chain 2026-08-19. |
 | Lead Steward | one per WG; appointed within 5 days of term start | Operational management, fund-disbursement initiation, DAO updates ([WG Rules](https://docs.ens.domains/dao/wg/rules/)) |
 | DAO Secretary | appointed by majority of all stewards | 4th multisig keyholder; cross-WG coordination; paid by Meta-Gov. Optional in Term 7 ([WG Rules](https://docs.ens.domains/dao/wg/rules/)) |
 | Security Council (4-of-8) | 8 members, roster and expiry in [security-council.md](02-contracts-and-multisigs/security-council.md) | Cancel/veto-only mandate; members confirmed [EP5.10](https://docs.ens.domains/dao/proposals/5.10/) |
@@ -55,7 +55,7 @@ Provider allocations per [EP6.13](https://docs.ens.domains/dao/proposals/6.13/).
 | Need | How to reach | Notes |
 |---|---|---|
 | **A malicious proposal is queued and could execute** | Trigger the **Security Council**. The 4-of-8 council Safe vetoes (cancels) the queued Timelock operation inside its delay window. Procedure and roster: [security-council.md](02-contracts-and-multisigs/security-council.md) | Any delegate can alert the council; post the alert to the Meta-Governance category ([28](https://discuss.ens.domains/c/meta-governance/28)) so signers convene fast |
-| **Reach the Meta-Gov stewards** | Meta-Governance forum category ([28](https://discuss.ens.domains/c/meta-governance/28)); weekly public MetaGov call (Tuesdays 9am ET); Meta-Gov Stewards forum group | All channels indexed in [reference/resources.md](reference/resources.md) |
+| **Reach the Meta-Gov stewards** | Meta-Governance forum category ([28](https://discuss.ens.domains/c/meta-governance/28)); bi-weekly public MetaGov call (Thursdays 16:00 UTC); Meta-Gov Stewards forum group | All channels indexed in [reference/resources.md](reference/resources.md) |
 | **Suspected phishing / address-poisoning at signing** | Stop and follow [04-runbook/verification-and-safety.md](04-runbook/verification-and-safety.md); do not sign until verified | Log unverified payouts to [OPEN-QUESTIONS.md](OPEN-QUESTIONS.md) |
 
 ## Tooling & links

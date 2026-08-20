@@ -8,8 +8,6 @@ Items that **could not be verified** from a primary source, or that are **in mot
   _Refs: [01-governance/elections.md](01-governance/elections.md), [directory.md](directory.md), [05-terms/term-07.md](05-terms/term-07.md)._
 - **Q-02: Secretary under the single-WG model.** Is a Secretary still appointed now that Meta-Gov is the sole WG? The "Path forward" vote makes it optional/at stewards' discretion. ([22107](https://discuss.ens.domains/t/path-forward-on-working-groups-for-term-7/22107))
   _Refs: [01-governance/stewards-and-roles.md](01-governance/stewards-and-roles.md), [05-terms/README.md](05-terms/README.md)._
-- **Q-03: Meta-Gov multisig 3/4 → 2/3.** The Path-forward thread indicates a move toward 2-of-3 signing with the Secretary seat optional. As of 2026-07-11 the Safe is **still 3 of 4 with the Term 6 owners** (nonce 235); the Term 7 signer rotation is pending. Re-verify on-chain once it happens.
-  _Refs: [02-contracts-and-multisigs/addresses.md](02-contracts-and-multisigs/addresses.md), [02-contracts-and-multisigs/multisigs.md](02-contracts-and-multisigs/multisigs.md)._
 - **Q-04: Term 7 EP prefix.** Is it `EP7.x`? The leading-digit-=-term scheme is explicitly confirmed only for Terms 3–4; no EP7.x proposal exists yet.
   _Refs: [01-governance/proposals.md](01-governance/proposals.md)._
 - **Q-05: Term 7 Meta-Gov funding.** The Collective funding-request EP id and amount are not yet posted (funding window opens after 1 Jul 2026).
