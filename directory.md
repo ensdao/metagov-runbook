@@ -1,6 +1,6 @@
 # Directory: Who's Who
 
-Public identities only (ENS / forum handles). Addresses live in [02-contracts-and-multisigs/addresses.md](02-contracts-and-multisigs/addresses.md). Cadence in [04-runbook/calendar.md](04-runbook/calendar.md); links in [reference/resources.md](reference/resources.md). _Roster as of 2026-06-20._
+Public identities only (ENS / forum handles). Addresses live in [02-contracts-and-multisigs/addresses.md](02-contracts-and-multisigs/addresses.md). Cadence in [04-runbook/calendar.md](04-runbook/calendar.md); links in [reference/resources.md](reference/resources.md). _Roster verified 2026-08-20._
 
 ## Working Groups & forum categories
 
@@ -16,10 +16,10 @@ Public identities only (ENS / forum handles). Addresses live in [02-contracts-an
 |---|---|---|
 | Meta-Gov Stewards (Term 7, elected) | netto.eth, sovereignsignal.eth, abdullahumar.eth | Elected 25–30 Jun 2026 ([result 2026-07-01](https://discuss.ens.domains/t/meta-governance-working-group-steward-nominations-term-7-2026/22157)). Signer rotation **executed**; the Safe is 2/4 with the three stewards plus the DAO Timelock, verified on-chain 2026-08-19. |
 | Lead Steward | one per WG; appointed within 5 days of term start | Operational management, fund-disbursement initiation, DAO updates ([WG Rules](https://docs.ens.domains/dao/wg/rules/)) |
-| DAO Secretary | appointed by majority of all stewards | 4th multisig keyholder; cross-WG coordination; paid by Meta-Gov. Optional in Term 7 ([WG Rules](https://docs.ens.domains/dao/wg/rules/)) |
+| DAO Secretary | appointed by majority of all stewards | 4th multisig keyholder; cross-WG coordination; paid by Meta-Gov ([WG Rules](https://docs.ens.domains/dao/wg/rules/)). **Not appointed for Term 7**; the fourth Safe seat is held by the DAO Timelock ([meetings thread](https://discuss.ens.domains/t/meta-gov-working-group-term-7-meetings-thursday-4pm-utc-bi-weekly/22280)) |
 | Security Council (4-of-8) | 8 members, roster and expiry in [security-council.md](02-contracts-and-multisigs/security-council.md) | Cancel/veto-only mandate; members confirmed [EP5.10](https://docs.ens.domains/dao/proposals/5.10/) |
 
-> ⚠️ **Open question:** The Term 7 Lead Steward and whether a Secretary is appointed are not yet decided as of 2026-07-11 (see [OPEN-QUESTIONS Q-01/Q-02](OPEN-QUESTIONS.md)).
+**Lead Steward: netto.eth**, recorded publicly 2026-07-13 and restated in each meeting agenda ([Term 7 meetings thread](https://discuss.ens.domains/t/meta-gov-working-group-term-7-meetings-thursday-4pm-utc-bi-weekly/22280)). No Secretary and no Scribe were appointed for Term 7.
 
 ## Service providers
 

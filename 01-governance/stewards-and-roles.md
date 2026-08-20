@@ -9,9 +9,9 @@ Each Working Group is run by elected Stewards, with role definitions set out in 
 | **Steward** | Elected per the [election cycle](elections.md); three seats per Working Group. | Run the Working Group; reallocate within approved budget (WG Rule 10.5). |
 | **Lead Steward** | Appointed from the elected stewards within **5 days** of term start. Removable by simple majority of the group's stewards. | Operational management, approving resource requests, initiating fund disbursement, posting DAO updates. |
 | **Secretary** | Appointed by majority vote of all stewards. | Coordinates cross-WG communication and meetings; serves as a multisig keyholder; compensated by Meta-Gov. |
-| **Scribe** | n/a | _Not documented in the available sources._ |
+| **Scribe** | Funded at the elected stewards' discretion; **not appointed for Term 7**. | Maintains the meeting record. With no Scribe this term, the stewards keep it themselves ([Term 7 meetings thread](https://discuss.ens.domains/t/meta-gov-working-group-term-7-meetings-thursday-4pm-utc-bi-weekly/22280)). |
 
-> ⚠️ **Open question:** Whether the Secretary role is retained now that Meta-Gov is the sole Working Group is unverified. Its cross-WG-coordination purpose is reduced, and the ["Path forward"](https://discuss.ens.domains/t/path-forward-on-working-groups-for-term-7/22107) thread indicates Term 7 stewards may opt not to appoint one (duties handled collectively).
+**Term 7:** no Secretary was appointed. The role is optional under the single-WG model ([Path forward](https://discuss.ens.domains/t/path-forward-on-working-groups-for-term-7/22107)), its cross-WG coordination purpose is reduced, and the fourth multisig seat went to the DAO Timelock rather than a Secretary (see [multisigs.md](../02-contracts-and-multisigs/multisigs.md)). The Term 7 roster lists three stewards only ([meetings thread](https://discuss.ens.domains/t/meta-gov-working-group-term-7-meetings-thursday-4pm-utc-bi-weekly/22280)).
 
 ## The multisig seat model
 

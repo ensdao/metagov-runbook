@@ -34,3 +34,27 @@ python3 scripts/manager_fee_to_safe.py --amount-eth 24.42 -o fee.json
 ```
 
 Builds the one-transaction batch in which the Meta-Gov Safe (the Allowance Module delegate) calls `executeAllowanceTransfer`, moving that month's ETH fee from the Endowment Safe to karpatkey's fee Safe. `--amount-eth` is karpatkey's figure for the month; the script rejects amounts above the 30 ETH per-period cap. Used by [treasury-manager fees](../04-runbook/treasury-manager-fees.md).
+
+## check_currency.py
+
+Tests whether stated facts are still **true**, as opposed to `verify.py`, which
+tests whether the docs are well **formed**.
+
+```
+python3 scripts/check_currency.py
+```
+
+- **Safe thresholds (fatal).** Every `Safe, N/M` claim in
+  [`addresses.md`](../02-contracts-and-multisigs/addresses.md) is checked against
+  the Safe Transaction Service. A mismatch fails the run and prints the live
+  owner set.
+- **Dated claims (reported).** Lists every `as of YYYY-MM-DD` stamp with its age
+  and flags anything past 120 days. Reported, never fatal.
+
+Runs daily via [`.github/workflows/currency.yml`](../.github/workflows/currency.yml),
+and on demand from the Actions tab. It is deliberately **not** part of the PR
+gate: it makes network calls, and an unreachable API should never block a
+documentation fix. Unreachable Safes are skipped, not failed.
+
+> Never bump an `as of` date without re-checking the underlying fact. The stamp
+> records when someone last verified the claim, not when the file was last edited.
