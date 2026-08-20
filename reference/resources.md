@@ -29,7 +29,7 @@ Primary discussion surface. Append `.json` to any thread/category URL for raw da
 | ENS Ecosystem _(legacy)_ | 32 | https://discuss.ens.domains/c/ens-ecosystem/32 |
 | Public Goods _(legacy)_ | 37 | https://discuss.ens.domains/c/public-goods/37 |
 
-Meta-Gov stewards group: https://discuss.ens.domains/g/Meta-Gov_Stewards · 2026 MetaGov call thread: https://discuss.ens.domains/t/metagov-working-group-2026-meetings-tuesdays-at-9am-et/21799
+Meta-Gov stewards group: https://discuss.ens.domains/g/Meta-Gov_Stewards · Term 7 MetaGov call thread (Thursdays 16:00 UTC, bi-weekly): https://discuss.ens.domains/t/meta-gov-working-group-term-7-meetings-thursday-4pm-utc-bi-weekly/22280 · Term 6 call thread (archive): https://discuss.ens.domains/t/metagov-working-group-2026-meetings-tuesdays-at-9am-et/21799
 
 ## Voting & proposal platforms
 
