@@ -49,7 +49,7 @@ See also [../03-treasury-and-endowment/](../03-treasury-and-endowment/) for the 
 | **EP6.48** · defeated 2026-07-05 | "Renewal of the Security Council (Term 2)": on-chain renewal attempt, **defeated** (against 3.86M vs for 1.14M). | [Tally](https://www.tally.xyz/gov/ens/proposal/45402179622316441394139979097514597399865468312011562941203078514615705423505) |
 | **Establishing a new Security Council** · executed 2026-07-22 | Replaced the expiring 2024 council: granted PROPOSER_ROLE on the Timelock to a new Nethermind-audited `SecurityCouncil` contract (`0x2acBf5…ae051`), controlled by a new **5-of-8** Safe, two days before the 2024 veto expired 2026-07-24. | [Tally](https://www.tally.xyz/gov/ens/proposal/77767899528494238518019756391533686963875234067646094287125791110488147463806) |
 
-> ⚠️ **Open question:** as of 2026-06-20 the renewal was still at temp-check stage. No Snapshot/EP number or deployed mainnet address had been assigned.
+**Resolved:** the renewal executed 2026-07-22, establishing a new `SecurityCouncil` contract and a new 5-of-8 council Safe before the 2024 council's veto expired 2026-07-24. Addresses in [addresses.md](../02-contracts-and-multisigs/addresses.md); detail in [security-council.md](../02-contracts-and-multisigs/security-council.md). The executed proposal's canonical EP number is still unconfirmed (the defeated first attempt was EP 6.48).
 
 ## Service Provider Program
 

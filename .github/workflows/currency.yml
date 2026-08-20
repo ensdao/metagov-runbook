@@ -1,0 +1,20 @@
+name: check-currency
+# Tests whether the runbook's stated facts are still TRUE (Safe thresholds vs the
+# chain, age of dated claims). Kept separate from verify.yml on purpose: that one
+# is offline and deterministic and gates every PR, so a flaky Safe API can never
+# block a contributor. This one runs on a schedule and surfaces drift instead.
+on:
+  schedule:
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+
+jobs:
+  currency:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Check stated facts against their sources
+        run: python3 scripts/check_currency.py

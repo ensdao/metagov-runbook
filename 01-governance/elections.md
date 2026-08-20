@@ -33,8 +33,10 @@ The steward term cycle shifted from calendar-year to a **mid-year cadence** foll
 | Term 7 begins | 1 Jul 2026 09:00 |
 | Term 7 ends | 30 Jun 2027 |
 
-As of 2026-06-20, three Meta-Gov seats are open. Four candidates were nominated: estmcmxci.eth, jkm.eth (James), sovereignsignal.eth (Sov), and vegayp.eth (Eduardo) ([thread](https://discuss.ens.domains/t/meta-governance-working-group-steward-nominations-term-7-2026/22157)).
+**Result.** Three seats were filled: **netto.eth**, **sovereignsignal.eth**, and **abdullahumar.eth**, with the third seat decided by the Average Support tiebreaker. Turnout 1,444,708 ENS across 60 voters, above the 1M quorum. Candidates estmcmxci.eth, jkm.eth, and vegayp.eth were not elected ([result posted 2026-07-01](https://discuss.ens.domains/t/meta-governance-working-group-steward-nominations-term-7-2026/22157), netto.eth). Full record: [term-07.md](../05-terms/term-07.md).
 
-> ⚠️ **Open question:** The final elected Term 7 Meta-Gov stewards, Lead Steward, and Secretary were undecided as of 2026-06-20 (voting 25–30 Jun 2026 had not opened). For Term 7 the Secretary role is **optional**. Stewards may decline to appoint one ([Path forward](https://discuss.ens.domains/t/path-forward-on-working-groups-for-term-7/22107)).
+**netto.eth was appointed Lead Steward**, recorded publicly on 2026-07-13 and restated in each subsequent meeting agenda ([Term 7 meetings thread](https://discuss.ens.domains/t/meta-gov-working-group-term-7-meetings-thursday-4pm-utc-bi-weekly/22280)).
+
+**No Secretary and no Scribe were appointed for Term 7.** The Secretary role is optional under the single-WG model ([Path forward](https://discuss.ens.domains/t/path-forward-on-working-groups-for-term-7/22107)); the stewards maintain the meeting record themselves in the absence of a Scribe ([meetings thread](https://discuss.ens.domains/t/meta-gov-working-group-term-7-meetings-thursday-4pm-utc-bi-weekly/22280)).
 
 Term 7 compensation rates (carried forward from Term 6): see [term-07.md](../05-terms/term-07.md).

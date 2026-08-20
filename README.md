@@ -6,7 +6,9 @@
 
 Documentation and operational runbook for the **ENS DAO Meta-Governance Working Group**. The context needed to *run* the group: how the DAO is governed, what Meta-Gov controls (multisigs, contracts, treasury), the critical proposals that shaped the rules, the recurring operational routines, and a per-term institutional-memory archive.
 
-Public, plain-markdown, navigable from the GitHub UI. The emphasis is **operational**: how things are managed and run, not financial analysis. _Current as of 2026-06-20._
+Public, plain-markdown, navigable from the GitHub UI. The emphasis is **operational**: how things are managed and run, not financial analysis.
+
+_Drafted 2026-06-20. Term 7 governance, roster, and multisig facts re-verified 2026-08-20; see [changelog](reference/changelog.md). Individual pages carry their own `as of` stamps where a figure is time-sensitive._
 
 > **Current state:** ENS is transitioning into **Term 7 (1 Jul 2026 – 30 Jun 2027)**. Following the "ENS Retro," Meta-Governance is becoming the **sole Working Group** (Ecosystem and Public Goods dissolved), and the term cycle shifted to a July–June anchor. Items still in motion are tracked in [OPEN-QUESTIONS.md](OPEN-QUESTIONS.md).
 

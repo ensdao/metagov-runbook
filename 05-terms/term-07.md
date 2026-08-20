@@ -16,7 +16,7 @@ Three steward seats, filled by [ranked-choice election](https://discuss.ens.doma
 
 Turnout was 1,444,708 ENS across 60 voters, above the 1M quorum. Candidates estmcmxci.eth, jkm.eth, and vegayp.eth were not elected. Source: [Term 7 nominations and results thread](https://discuss.ens.domains/t/meta-governance-working-group-steward-nominations-term-7-2026/22157) (netto.eth, 2026-07-01).
 
-> ⚠️ **Open question:** The Lead Steward, the DAO Secretary (optional under the single-WG model), and the Scribe are not yet appointed as of 2026-07-11.
+**netto.eth is Lead Steward**, recorded publicly 2026-07-13 and restated in each subsequent meeting agenda ([Term 7 meetings thread](https://discuss.ens.domains/t/meta-gov-working-group-term-7-meetings-thursday-4pm-utc-bi-weekly/22280)). **No DAO Secretary and no Scribe were appointed**; the Secretary role is optional under the single-WG model and the stewards maintain the meeting record themselves.
 
 ## Funding
 
@@ -24,7 +24,9 @@ Turnout was 1,444,708 ENS across 60 voters, above the 1M quorum. Candidates estm
 |----|----------|--------|--------|
 | Meta-Governance | not yet posted | not yet posted | July 2026 ([EP 6.44](https://discuss.ens.domains/t/path-forward-on-working-groups-for-term-7/22107) timeline: stewards collaborate on the Collective Proposal to request WG funds after term start) |
 
-> ⚠️ **Open question:** The Term 7 Meta-Governance funding EP id and amount are UNVERIFIED, not yet posted as of 2026-06-20; the funding window opens July 2026 after term start ([EP 6.44](https://discuss.ens.domains/t/path-forward-on-working-groups-for-term-7/22107)).
+The **July 2026 window closed on 2026-07-31 with no Meta-Governance funding proposal posted.** The October 2026 window is the stated target. Compensation in the interim is paid from residual Term 6 funds held by the Meta-Gov Safe.
+
+> ⚠️ **Open question:** The Term 7 funding EP id and amount remain unset pending the October window. Note WG Rule 11.2 requires steward compensation to be detailed in the Collective Proposal and Rule 11.3 bars it outside one; how the eventual proposal treats payments already made is not yet stated.
 
 ## Compensation
 
@@ -34,8 +36,8 @@ No standalone "Term 7 Compensation" proposal exists. Rates are codified within *
 |------|------------------|
 | Lead Steward | $5.5k/month + ENS* |
 | Steward | $4k/month + ENS* |
-| Secretary | $5.5k/month |
-| Scribe | $3k/month |
+| Secretary | $5.5k/month — **role not filled in Term 7** |
+| Scribe | $3k/month — **role not filled in Term 7** |
 
 \* 2-year vested ENS, calculated using the 6-month TWAP, distributed mid-term, matching the USD value of the salaries.
 

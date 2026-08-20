@@ -1,16 +1,10 @@
 # Open Questions
 
-Items that **could not be verified** from a primary source, or that are **in motion** as of 2026-06-20. Per the project's no-assumptions rule, none of these is asserted as fact anywhere in the docs. They're collected here for the stewards to resolve. Each has a stable ID, the source that surfaced it, and (where known) the files that would carry the answer. Resolve → add the cited fact to the owner file and remove the entry.
+Items that **could not be verified** from a primary source, or that are **in motion** as of 2026-08-20. Per the project's no-assumptions rule, none of these is asserted as fact anywhere in the docs. They're collected here for the stewards to resolve. Each has a stable ID, the source that surfaced it, and (where known) the files that would carry the answer. Resolve → add the cited fact to the owner file and remove the entry.
 
 ## Live / time-sensitive (Term 7 transition)
 
-- **Q-01: Term 7 Lead Steward and Secretary.** The three Meta-Gov stewards were elected (netto.eth, sovereignsignal.eth, abdullahumar.eth; [result 2026-07-01](https://discuss.ens.domains/t/meta-governance-working-group-steward-nominations-term-7-2026/22157)), now recorded in [05-terms/term-07.md](05-terms/term-07.md). Still open: the Lead Steward and whether a Secretary is appointed (see Q-02) were not yet named as of 2026-07-11.
-  _Refs: [01-governance/elections.md](01-governance/elections.md), [directory.md](directory.md), [05-terms/term-07.md](05-terms/term-07.md)._
-- **Q-02: Secretary under the single-WG model.** Is a Secretary still appointed now that Meta-Gov is the sole WG? The "Path forward" vote makes it optional/at stewards' discretion. ([22107](https://discuss.ens.domains/t/path-forward-on-working-groups-for-term-7/22107))
-  _Refs: [01-governance/stewards-and-roles.md](01-governance/stewards-and-roles.md), [05-terms/README.md](05-terms/README.md)._
-- **Q-04: Term 7 EP prefix.** Is it `EP7.x`? The leading-digit-=-term scheme is explicitly confirmed only for Terms 3–4; no EP7.x proposal exists yet.
-  _Refs: [01-governance/proposals.md](01-governance/proposals.md)._
-- **Q-05: Term 7 Meta-Gov funding.** The Collective funding-request EP id and amount are not yet posted (funding window opens after 1 Jul 2026).
+- **Q-05: Term 7 Meta-Gov funding.** The July 2026 window closed 2026-07-31 with no proposal posted; the October 2026 window is the stated target. The funding EP id and amount remain unset. Open alongside it: WG Rule 11.2 requires steward compensation to be detailed in the Collective Proposal and Rule 11.3 bars it outside one, so how the eventual proposal treats compensation already paid from residual Term 6 funds needs stating.
   _Refs: [05-terms/term-07.md](05-terms/term-07.md), [04-runbook/funding-request.md](04-runbook/funding-request.md)._
 - **Q-06: Funding-window cadence under the July anchor.** Whether the historical Jan/Apr/Jul/Oct windows shift with the new July–June cycle is not documented.
   _Refs: [04-runbook/calendar.md](04-runbook/calendar.md), [04-runbook/funding-request.md](04-runbook/funding-request.md)._
