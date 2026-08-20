@@ -4,18 +4,14 @@ Day-to-day DAO spend runs through Gnosis Safes (v1.3.0), each funded from the Ti
 
 ## Meta-Governance main Safe: `main.mg.wg.ens.eth`
 
-The only operational WG Safe as of Term 7. Its signers follow the Meta-Gov [seat model](../01-governance/stewards-and-roles.md) (elected stewards + one appointed Secretary); the threshold and address are in [addresses.md](addresses.md). Owner set verified on-chain via [Safe Transaction Service](https://api.safe.global/tx-service/eth/api/v1/safes/0x91c32893216dE3eA0a55ABb9851f581d4503d39b/).
+The only operational WG Safe as of Term 7. Historically its signers followed the Meta-Gov [seat model](../01-governance/stewards-and-roles.md) of three elected stewards plus one appointed Secretary; the threshold and address are in [addresses.md](addresses.md).
 
-Current owners (reverse-resolved, _as of 2026-06-20_). Note the dedicated `steward.*` / `secretary.*` signing subnames:
+The Term 7 rotation is **executed**. Current owners, threshold, and the dedicated `steward.*` signing subnames are in the [canonical address table](addresses.md#meta-gov-safe-signers-term-7), verified on-chain 2026-08-19 (nonce 243). Two things about the result are worth stating plainly, because neither matches what the transition was expected to produce:
 
-| Owner ENS | Seat |
-|-----------|------|
-| `steward.netto.eth` | Steward |
-| `daostrat.eth` | Steward |
-| `steward.5pence.eth` | Steward |
-| `secretary.limes.eth` | Secretary |
+- **The threshold is 2 of 4, not the anticipated 2 of 3.** Any two of the four owners can execute.
+- **The fourth seat is the DAO Timelock itself**, not a Secretary. `wallet.ensdao.eth` is the Timelock (see the [canonical table](addresses.md)); it replaces the Secretary seat in the historical [seat model](../01-governance/stewards-and-roles.md).
 
-> The Term 7 transition may change both signers and threshold (a possible move toward 2/3 with the Secretary optional). See the [seat-model open question](../01-governance/stewards-and-roles.md) and re-verify the Safe config after the transition.
+Verified against the [Safe Transaction Service](https://api.safe.global/tx-service/eth/api/v1/safes/0x91c32893216dE3eA0a55ABb9851f581d4503d39b/) and a direct `getThreshold()` / `getOwners()` call.
 
 ## SPP stream safe: `stream.mg.wg.ens.eth`
 

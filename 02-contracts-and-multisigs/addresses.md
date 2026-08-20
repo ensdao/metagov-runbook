@@ -14,10 +14,21 @@
 
 | Name | ENS | Address | Type / threshold | Source |
 |------|-----|---------|------------------|--------|
-| Meta-Gov main Safe | `main.mg.wg.ens.eth` | `0x91c32893216dE3eA0a55ABb9851f581d4503d39b` | Safe, 3/4 | [Safe API](https://api.safe.global/tx-service/eth/api/v1/safes/0x91c32893216dE3eA0a55ABb9851f581d4503d39b/) |
+| Meta-Gov main Safe | `main.mg.wg.ens.eth` | `0x91c32893216dE3eA0a55ABb9851f581d4503d39b` | Safe, 2/4 | [Safe API](https://api.safe.global/tx-service/eth/api/v1/safes/0x91c32893216dE3eA0a55ABb9851f581d4503d39b/) |
 | SPP stream safe | `stream.mg.wg.ens.eth` | `0xB162Bf7A7fD64eF32b787719335d06B2780e31D1` | Safe, 1/2 | [Safe API](https://api.safe.global/tx-service/eth/api/v1/safes/0xB162Bf7A7fD64eF32b787719335d06B2780e31D1/) |
 | Ecosystem main Safe (legacy) | `main.eco.wg.ens.eth` | `0x2686A8919Df194aA7673244549E68D42C1685d03` | Safe, 3/4 | [Safe API](https://api.safe.global/tx-service/eth/api/v1/safes/0x2686A8919Df194aA7673244549E68D42C1685d03/) |
 | Public Goods main Safe (legacy) | `main.pg.wg.ens.eth` | `0xcD42b4c4D102cc22864e3A1341Bb0529c17fD87d` | Safe, 3/4 | [Safe API](https://api.safe.global/tx-service/eth/api/v1/safes/0xcD42b4c4D102cc22864e3A1341Bb0529c17fD87d/) |
+
+### Meta-Gov Safe signers (Term 7)
+
+Owners of `main.mg.wg.ens.eth`, threshold 2. Verified on-chain 2026-08-19 (nonce 243). Signer composition and the Timelock seat are explained in [multisigs.md](multisigs.md).
+
+| Owner ENS | Address | Seat |
+|-----------|---------|------|
+| `steward.netto.eth` | `0x75d91395CD36f24f990bbdE69993cB20B96EcFa6` | Steward (Lead) |
+| `steward.sovereignsignal.eth` | `0x7d7e46bEF5064CFae2CeD5CC627141005D1cDe76` | Steward |
+| `steward.abdullahumar.eth` | `0x7Bd3AB8fA37d63c04a8d0BeE3298088C0f366709` | Steward |
+| `wallet.ensdao.eth` | `0xFe89cc7aBB2C4183683ab71653C4cdc9B02D44b7` | DAO Timelock (see governance core above) |
 
 ## Endowment & treasury automation
 
@@ -31,15 +42,21 @@
 | Registrar Manager (EP 6.39) | n/a | `0x62627681D92e36b9aeE1D9A6BF181373ccd42552` | Owns controllers; permissionless `withdraw()` → endowment | [EP 6.39 thread](https://discuss.ens.domains/t/executable-treasury-flow-automation/21923) |
 | Hedgey BatchPlanner | n/a | `0x3466EB008EDD8d5052446293D1a7D212cb65C646` | Token-vesting batch planner | [EP 5.26 context](https://www.tally.xyz/gov/ens) |
 
+## Tokens
+
+| Name | Address | Notes | Source |
+|------|---------|-------|--------|
+| USDC | `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48` | 6 decimals; the WG compensation / stream token | [Etherscan](https://etherscan.io/token/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48) |
+
 ## Security Council
 
 | Name | ENS | Address | Type / threshold | Source |
 |------|-----|---------|------------------|--------|
-| SecurityCouncil contract (2024) | n/a | `0xb8fa0ce3f91f41c5292d07475b445c35ddf63ee0` | Holds PROPOSER_ROLE; cancel-only | [EP 5.13](https://docs.ens.domains/dao/proposals/5.13/) |
-| Security Council multisig | n/a | `0xaA5cD05f6B62C3af58AE9c4F3F7A2aCC2Cdc2Cc7` | Safe, 4/8 | [docs](https://docs.ens.domains/dao/security-council/) |
+| SecurityCouncil contract (2026, current) | n/a | `0x2acBf518b3759f6e1fA163294eda55bF1d0ae051` | Holds PROPOSER_ROLE (granted 2026-07-22); cancel-only | [executed tx](https://etherscan.io/tx/0xb2f732c433471ce5274c77d1fe04bd060389319a3b32dfa26ee16164ef46812f) |
+| Security Council multisig (2026, current) | n/a | `0x7101B78638e34444F0a5AdE9e1149fbEeC029931` | Safe, 5/8 | [Etherscan](https://etherscan.io/address/0x7101B78638e34444F0a5AdE9e1149fbEeC029931) |
+| SecurityCouncil contract (2024, superseded) | n/a | `0xb8fa0ce3f91f41c5292d07475b445c35ddf63ee0` | Held PROPOSER_ROLE; cancel-only; veto power expired 2026-07-24 | [EP 5.13](https://docs.ens.domains/dao/proposals/5.13/) |
+| Security Council multisig (2024, superseded) | n/a | `0xaA5cD05f6B62C3af58AE9c4F3F7A2aCC2Cdc2Cc7` | Safe, 4/8 | [docs](https://docs.ens.domains/dao/security-council/) |
 | Legacy `veto.ensdao.eth` | `veto.ensdao.eth` | `0x552DF471a4c7Fea11Ea8d7a7b0Acc6989b902a95` | Predecessor cancel contract | [EP 5.7 thread](https://discuss.ens.domains/t/introducing-veto-ensdao-eth/19088) |
-
-> The 2026 Nethermind-audited renewal contract has **no on-chain address yet** (temp-check stage). See [security-council.md](security-council.md).
 
 ## ENS protocol contracts
 

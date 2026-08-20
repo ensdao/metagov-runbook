@@ -7,7 +7,7 @@ How on-chain power is structured in the ENS DAO, and who can sign or veto what. 
 | File | Covers |
 |------|--------|
 | [contract-hierarchy.md](contract-hierarchy.md) | Token → Governor → Timelock (= DAO Wallet); roles, quorum/threshold, voting period, 2-day timelock. |
-| [multisigs.md](multisigs.md) | Working-group Safes (Meta-Gov 3/4 + signers), legacy Ecosystem/Public Goods Safes, the SPP stream safe. |
+| [multisigs.md](multisigs.md) | Working-group Safes (Meta-Gov 2/4 + signers), legacy Ecosystem/Public Goods Safes, the SPP stream safe. |
 | [security-council.md](security-council.md) | Legacy `veto.ensdao.eth` vs the 2024 council (cancel-only, expiry) vs the 2026 renewal (temp-check), **plus the emergency veto trigger procedure.** |
 | [ens-protocol-control.md](ens-protocol-control.md) | Root, `.eth` registrar lock, controllers, DNSSEC, NameWrapper, and who admins them. |
 | [addresses.md](addresses.md) | ⭐ **Canonical address table.** Every contract and Safe in one place. |

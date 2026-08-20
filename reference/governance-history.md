@@ -1,6 +1,6 @@
 # Critical Proposals: Annotated Timeline
 
-This is a curated timeline of the proposals that **changed the rules, governance structure, or core processes** of the ENS DAO, not an exhaustive catalog. For the full archive, see the [ENS Docs proposals index](https://docs.ens.domains/dao/proposals/) and the [Governor proposal mirror](https://dao.ens.gregskril.com/). Addresses cited below live in the canonical [addresses table](../02-contracts-and-multisigs/addresses.md).
+This is a curated timeline of the proposals that **changed the rules, governance structure, or core processes** of the ENS DAO, not an exhaustive catalog. For the full archive, see the [ENS Docs proposals index](https://ens.gov.blockful.io/proposals) and the [Governor proposal mirror](https://dao.ens.gregskril.com/). Addresses cited below live in the canonical [addresses table](../02-contracts-and-multisigs/addresses.md).
 
 > **EP numbering:** the leading digit is the term number (`EPN.M` = proposal *M* of Term *N*); older proposals were renumbered from a legacy `EP1–EP16` scheme. See [proposal numbering](../01-governance/proposals.md).
 
@@ -46,7 +46,8 @@ See also [../03-treasury-and-endowment/](../03-treasury-and-endowment/) for the 
 | **EP5.7** · 2024-05-04 | Established the original Security Council concept: a multisig with the cancel role on the timelock to veto malicious proposals; framed as a ~2-year measure. | [Snapshot](https://snapshot.box/#/s:ens.eth/proposal/0xf3a4673fe04a3ecfed4a2f066f6ced1539a5466d61630428333360b843653c54) |
 | **EP5.10** · 2024-06-24 | Confirmed the Council's specific membership, operationalizing the cancel/veto safeguard. | [Snapshot](https://snapshot.box/#/s:ens.eth/proposal/0xa0b1bfadf6853b5b0d59d3c4d73c434fc6389339887d05de805361372eb17c3a) |
 | **EP5.13** · 2024 (executed ~28 Jul) | Deployed `SecurityCouncil.sol` and granted it PROPOSER_ROLE on the timelock so the 4-of-8 council can **cancel (veto)** queued operations. Cancel-only by design; 2-year auto-expiry (24 Jul 2026). | [Docs](https://docs.ens.domains/dao/proposals/5.13/) |
-| **2026 renewal** · temp check | A new, Nethermind-audited (NM-0945) `SecurityCouncil` contract adds an `extend()` function so future renewals are a single governance vote; re-grants PROPOSER_ROLE before the 2024 council expires. | [Temp check](https://discuss.ens.domains/t/temp-check-renewal-of-the-security-council/22145) |
+| **EP6.48** · defeated 2026-07-05 | "Renewal of the Security Council (Term 2)": on-chain renewal attempt, **defeated** (against 3.86M vs for 1.14M). | [Tally](https://www.tally.xyz/gov/ens/proposal/45402179622316441394139979097514597399865468312011562941203078514615705423505) |
+| **Establishing a new Security Council** · executed 2026-07-22 | Replaced the expiring 2024 council: granted PROPOSER_ROLE on the Timelock to a new Nethermind-audited `SecurityCouncil` contract (`0x2acBf5…ae051`), controlled by a new **5-of-8** Safe, two days before the 2024 veto expired 2026-07-24. | [Tally](https://www.tally.xyz/gov/ens/proposal/77767899528494238518019756391533686963875234067646094287125791110488147463806) |
 
 > ⚠️ **Open question:** as of 2026-06-20 the renewal was still at temp-check stage. No Snapshot/EP number or deployed mainnet address had been assigned.
 

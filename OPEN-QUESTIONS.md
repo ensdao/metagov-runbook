@@ -8,8 +8,6 @@ Items that **could not be verified** from a primary source, or that are **in mot
   _Refs: [01-governance/elections.md](01-governance/elections.md), [directory.md](directory.md), [05-terms/term-07.md](05-terms/term-07.md)._
 - **Q-02: Secretary under the single-WG model.** Is a Secretary still appointed now that Meta-Gov is the sole WG? The "Path forward" vote makes it optional/at stewards' discretion. ([22107](https://discuss.ens.domains/t/path-forward-on-working-groups-for-term-7/22107))
   _Refs: [01-governance/stewards-and-roles.md](01-governance/stewards-and-roles.md), [05-terms/README.md](05-terms/README.md)._
-- **Q-03: Meta-Gov multisig 3/4 → 2/3.** The Path-forward thread indicates a move toward 2-of-3 signing with the Secretary seat optional. As of 2026-07-11 the Safe is **still 3 of 4 with the Term 6 owners** (nonce 235); the Term 7 signer rotation is pending. Re-verify on-chain once it happens.
-  _Refs: [02-contracts-and-multisigs/addresses.md](02-contracts-and-multisigs/addresses.md), [02-contracts-and-multisigs/multisigs.md](02-contracts-and-multisigs/multisigs.md)._
 - **Q-04: Term 7 EP prefix.** Is it `EP7.x`? The leading-digit-=-term scheme is explicitly confirmed only for Terms 3–4; no EP7.x proposal exists yet.
   _Refs: [01-governance/proposals.md](01-governance/proposals.md)._
 - **Q-05: Term 7 Meta-Gov funding.** The Collective funding-request EP id and amount are not yet posted (funding window opens after 1 Jul 2026).
@@ -23,9 +21,9 @@ Items that **could not be verified** from a primary source, or that are **in mot
 
 ## Security Council
 
-- **Q-09: 2026 renewal status.** As of 2026-06-20 the Nethermind-audited renewal is at **temp-check only** ([22145](https://discuss.ens.domains/t/temp-check-renewal-of-the-security-council/22145)). No EP number, no deployed contract address, no `grantRole(PROPOSER_ROLE,…)` tx. The 2024 council's veto expires **2026-07-24**, so the renewal must land before then.
+- **Q-09: 2026 Security Council renewal (mostly resolved).** Executed 2026-07-22: a new `SecurityCouncil` contract (`0x2acBf5…ae051`) and a new 5-of-8 council Safe (`0x7101B7…9931`) were established, granting PROPOSER_ROLE before the 2024 veto expired 2026-07-24. Recorded in [security-council.md](02-contracts-and-multisigs/security-council.md). Residual: the executed proposal's canonical EP/docs number is unconfirmed (the defeated first attempt was EP 6.48).
   _Refs: [02-contracts-and-multisigs/security-council.md](02-contracts-and-multisigs/security-council.md), [02-contracts-and-multisigs/addresses.md](02-contracts-and-multisigs/addresses.md)._
-- **Q-10: Council Safe ↔ member mapping.** EP 5.10 names 8 members; confirm the on-chain 4/8 Safe (`0xaA5cD0…2Cc7`) owners match those identities and threshold = 4.
+- **Q-10: New council member roster.** Confirm the 8 owner addresses of the 2026 council Safe (`0x7101B7…9931`, threshold 5) map to named members, per the [executed proposal](https://www.tally.xyz/gov/ens/proposal/77767899528494238518019756391533686963875234067646094287125791110488147463806). The `0x8E52ca…` signer is reported as securitycouncil.coltron.eth (unverified).
   _Refs: [02-contracts-and-multisigs/security-council.md](02-contracts-and-multisigs/security-council.md), [02-contracts-and-multisigs/addresses.md](02-contracts-and-multisigs/addresses.md), [directory.md](directory.md)._
 
 ## Contracts & addresses
@@ -47,6 +45,8 @@ Items that **could not be verified** from a primary source, or that are **in mot
   _Refs: [04-runbook/verification-and-safety.md](04-runbook/verification-and-safety.md), [04-runbook/monthly-compensation.md](04-runbook/monthly-compensation.md)._
 - **Q-17: SPP2 stream details & pod membership.** Current per-provider stream rates / remaining durations (basic vs extended scopes), stream on/off-boarding handling, and the exact Stream Management Pod signers are unconfirmed.
   _Refs: [03-treasury-and-endowment/service-provider-program.md](03-treasury-and-endowment/service-provider-program.md), [directory.md](directory.md)._
+- **Q-28: ENS Contract Naming Season — return of remaining ENS.** The program (Nov 2025 – Apr 2026) received 75,000 USDC (~fully deployed) and 10,000 ENS (7,095 distributed across 50 wallets); 2,905 ENS (+ USDC dust) remain unallocated. [Thread 22229](https://discuss.ens.domains/t/ens-contract-naming-season-accountability-summary-and-open-question-on-remaining-funds/22229) confirms resolving this falls to Meta-Gov Stewards: return the remainder to the DAO or roll it into a future program, and — if returned — to which recipient address (`wallet.ensdao.eth` proposed, unconfirmed).
+  _Refs: no dedicated owner file exists for this program yet; see [03-treasury-and-endowment/README.md](03-treasury-and-endowment/README.md) if one is created._
 
 ## Directory & audits
 
