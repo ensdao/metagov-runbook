@@ -1,6 +1,6 @@
 # Critical Proposals: Annotated Timeline
 
-This is a curated timeline of the proposals that **changed the rules, governance structure, or core processes** of the ENS DAO, not an exhaustive catalog. For the full archive, see the [ENS Docs proposals index](https://docs.ens.domains/dao/proposals/) and the [Governor proposal mirror](https://dao.ens.gregskril.com/). Addresses cited below live in the canonical [addresses table](../02-contracts-and-multisigs/addresses.md).
+This is a curated timeline of the proposals that **changed the rules, governance structure, or core processes** of the ENS DAO, not an exhaustive catalog. For the full archive, see the [ENS Docs proposals index](https://ens.gov.blockful.io/proposals) and the [Governor proposal mirror](https://dao.ens.gregskril.com/). Addresses cited below live in the canonical [addresses table](../02-contracts-and-multisigs/addresses.md).
 
 > **EP numbering:** the leading digit is the term number (`EPN.M` = proposal *M* of Term *N*); older proposals were renumbered from a legacy `EP1–EP16` scheme. See [proposal numbering](../01-governance/proposals.md).
 
