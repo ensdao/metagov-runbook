@@ -1,6 +1,6 @@
 # ⭐ Canonical Address Table
 
-**Single source of truth** for ENS DAO contract and Safe addresses **and Safe thresholds**. Other runbook files link here rather than re-listing these values. Verify on-chain before signing. See anti-phishing guidance in [04-runbook/verification-and-safety.md](../04-runbook/verification-and-safety.md).
+**Single source of truth** for ENS DAO contract, Safe, and recurring-payout addresses **and Safe thresholds**. Other runbook files link here rather than re-listing these values. Verify on-chain before signing. See anti-phishing guidance in [04-runbook/verification-and-safety.md](../04-runbook/verification-and-safety.md).
 
 ## Governance core
 
@@ -21,7 +21,7 @@
 
 ### Meta-Gov Safe signers (Term 7)
 
-Owners of `main.mg.wg.ens.eth`, threshold 2. Verified on-chain 2026-08-19 (nonce 243). Signer composition and the Timelock seat are explained in [multisigs.md](multisigs.md).
+Owners of `main.mg.wg.ens.eth`, threshold 2. Verified on-chain 2026-08-19 (nonce 243). Signer composition and the Timelock seat are explained in [multisigs.md](multisigs.md). The rotation executed 2026-07-30 at nonce 235 ([tx](https://etherscan.io/tx/0xd646d8f1171eb33a23d8259eb237c173b13b8eb8c2060ff0860e4c21745985f1)): three `swapOwner` calls plus `changeThreshold(2)` in one `multiSend`.
 
 | Owner ENS | Address | Seat |
 |-----------|---------|------|
@@ -29,6 +29,17 @@ Owners of `main.mg.wg.ens.eth`, threshold 2. Verified on-chain 2026-08-19 (nonce
 | `steward.sovereignsignal.eth` | `0x7d7e46bEF5064CFae2CeD5CC627141005D1cDe76` | Steward |
 | `steward.abdullahumar.eth` | `0x7Bd3AB8fA37d63c04a8d0BeE3298088C0f366709` | Steward |
 | `wallet.ensdao.eth` | `0xFe89cc7aBB2C4183683ab71653C4cdc9B02D44b7` | DAO Timelock (see governance core above) |
+
+### Legacy WG programme sub-Safes (historical)
+
+Programme Safes co-owned by the parent WG Safe and stewards, wound down or dormant since the Term 7 restructure. Listed so their history in the [WG transaction archive](../reference/wg-transaction-history.md) can be attributed; **not** for new payments. Owner names in [multisigs.md](multisigs.md).
+
+| Name | ENS | Address | Type / threshold | Source |
+|------|-----|---------|------------------|--------|
+| Ecosystem hackathons Safe | `hackathons.eco.wg.ens.eth` | `0x9B9c249Be04dd433c7e8FbBF5E61E6741b89966D` | Safe, 2/3 (one owner is `main.eco.wg.ens.eth`) | [Safe API](https://api.safe.global/tx-service/eth/api/v1/safes/0x9B9c249Be04dd433c7e8FbBF5E61E6741b89966D/) |
+| Ecosystem IRL Safe | `irl.eco.wg.ens.eth` | `0x536013c57DAF01D78e8a70cAd1B1abAda9411819` | Safe, 2/3 (one owner is `main.eco.wg.ens.eth`) | [Safe API](https://api.safe.global/tx-service/eth/api/v1/safes/0x536013c57DAF01D78e8a70cAd1B1abAda9411819/) |
+| Ecosystem newsletter Safe | `newsletter.eco.wg.ens.eth` | `0x13aEe52C1C688d3554a15556c5353cb0c3696ea2` | Safe, 2/3 (one owner is `main.eco.wg.ens.eth`) | [Safe API](https://api.safe.global/tx-service/eth/api/v1/safes/0x13aEe52C1C688d3554a15556c5353cb0c3696ea2/) |
+| Public Goods large-grants Safe | `largegrants.pg.wg.ens.eth` | `0xebA76C907F02BA13064EDAD7876Fe51D9d856F62` | Safe, 3/4 | [Safe API](https://api.safe.global/tx-service/eth/api/v1/safes/0xebA76C907F02BA13064EDAD7876Fe51D9d856F62/) |
 
 ## Endowment & treasury automation
 
@@ -47,6 +58,13 @@ Owners of `main.mg.wg.ens.eth`, threshold 2. Verified on-chain 2026-08-19 (nonce
 | Name | Address | Notes | Source |
 |------|---------|-------|--------|
 | USDC | `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48` | 6 decimals; the WG compensation / stream token | [Etherscan](https://etherscan.io/token/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48) |
+
+## Recurring payout recipients
+
+| Name | ENS | Address | Type | Source |
+|------|-----|---------|------|--------|
+| DAO Communications retainer | `estmcmxci.eth` | `0x703ae03fB120eC91e9Ed6d08Ce8044E498CC789B` | EOA; 2,060 USDC/mo from Meta-Gov Safe → [monthly-compensation](../04-runbook/monthly-compensation.md#dao-communications-retainer-separate-transfer) | [first payment, nonce 239](https://etherscan.io/tx/0x8d6e0666bc0579edaa5aff07f2ed770c17bc9703a6666f019419b969e520096b) |
+| Legal counsel (retainer; firm not publicly named → [Q-16](../OPEN-QUESTIONS.md)) | n/a | `0x8320Ea331C2AE27dFA50375C2CFdA614Fdb718DF` | Recipient of 4 USDC payments Jan–May 2026 annotated "legal counsel fees" in the [WG transaction archive](../reference/wg-transaction-history.md). **Actively targeted by address-poisoning lookalikes**: compare all 42 characters → [verification](../04-runbook/verification-and-safety.md) | [2026-04-15 tx](https://etherscan.io/tx/0xf52af7f6a6a917f8b462c4fd35b2e9e9c93f88b4fda0248a55f6c11eda3dea5b) · [2026-05-08 tx](https://etherscan.io/tx/0x616e626dc7673511ed5f85d452b08595930389b6b5f4acc4ccf9d41f276abe7d) |
 
 ## Security Council
 

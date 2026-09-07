@@ -20,7 +20,7 @@ The pattern is **social proposal → collective executable**: the WG posts a fun
 
 ## Per-term DAO → Safe top-ups
 
-Each term the WG's spending envelope is set by an inbound transfer from `wallet.ensdao.eth` (executed by the Governor) into the Meta-Gov Safe: USDC for compensation, plus ENS for token distribution. Examples: **100,000 ENS (2025-05)** and **150,000 ENS (2024-07)** ([Safe Tx Service](https://app.safe.global/)).
+Each term the WG's spending envelope is set by an inbound transfer from `wallet.ensdao.eth` (executed by the Governor) into the Meta-Gov Safe: USDC for compensation, plus ENS for token distribution. Examples: **379,000 USDC (2026-02-18)** ([tx](https://etherscan.io/tx/0x85462789b2919f32fa7da4ea7ece7665a87a881ada5ad48ecd17aff47e613036), the Oct-2025 window's [EP 6.28](https://discuss.ens.domains/t/ep-6-28-executable-collective-working-group-funding-request-oct-2025/21654) amount), **100,000 ENS (2025-05)** and **150,000 ENS (2024-07)** ([Safe Tx Service](https://app.safe.global/)). Inbound top-ups appear as `Internal Transfer` rows in the [WG transaction archive](../reference/wg-transaction-history.md).
 
 **When to request a new funding EP:** when the term's budget is set, or when the Safe's USDC balance won't cover upcoming [monthly compensation](monthly-compensation.md) runs. Requests follow the per-term forum cadence in step 2 above; see [calendar.md](calendar.md).
 

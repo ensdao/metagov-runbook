@@ -29,7 +29,7 @@ New steward? Begin with **[onboarding](04-runbook/onboarding.md)**. It walks you
 | [03 · Treasury & endowment](03-treasury-and-endowment/) | Revenue flow, the [EP 6.39 treasury automation](03-treasury-and-endowment/treasury-automation.md), the karpatkey endowment, the SPP, spending controls |
 | [04 · Runbook](04-runbook/) | Step-by-step procedures for the recurring on-chain operations (table below) |
 | [05 · Terms archive](05-terms/) | Per-term record (Terms 0–7): stewards, funding, compensation, activity |
-| [Reference](reference/) | [Critical-proposals timeline](reference/governance-history.md), [canonical links](reference/resources.md), [glossary](reference/glossary.md), [structural changelog](reference/changelog.md) |
+| [Reference](reference/) | [Critical-proposals timeline](reference/governance-history.md), [WG transaction archive](reference/wg-transaction-history.md), [canonical links](reference/resources.md), [glossary](reference/glossary.md), [structural changelog](reference/changelog.md) |
 
 Also: [directory.md](directory.md) (who's-who + how to reach them) · [OPEN-QUESTIONS.md](OPEN-QUESTIONS.md) (unverified / in-motion items).
 

@@ -21,6 +21,7 @@ The recurring operational cadence the Meta-Gov WG runs. Most items live on the [
 | ~Quarterly | **Endowment permissions update** | `[EP] [Executable] Endowment permissions to karpatkey – Update #N` → [endowment-permissions](../03-treasury-and-endowment/endowment-permissions.md). |
 | ~Quarterly | **Timelock runway top-up** | karpatkey tops up the Timelock's operating runway when below threshold → [treasury-automation](../03-treasury-and-endowment/treasury-automation.md). |
 | Monthly | **Compensation run** | Single USDC `multiSend` batch to contributors → [monthly-compensation](monthly-compensation.md). |
+| Monthly | **DAO Communications retainer** | 2,060 USDC direct transfer to estmcmxci.eth (newsletter, social distribution, editorial support), since Aug 2026 → [monthly-compensation](monthly-compensation.md#dao-communications-retainer-separate-transfer). |
 
 ## Reporting cadence
 
@@ -29,8 +30,9 @@ The recurring operational cadence the Meta-Gov WG runs. Most items live on the [
 | Monthly | **karpatkey endowment report** | Rolling thread [17614](https://discuss.ens.domains/t/endowment-monthly-reports/17614); dashboards in [../reference/resources.md](../reference/resources.md). |
 | Semi-annual / annual | **Endowment H1 & annual review** | karpatkey, on the forum. |
 | Rolling | **Steakhouse financial reporting** | Thread [16601](https://discuss.ens.domains/t/ens-financial-reporting-by-steakhouse/16601). |
+| Quarterly _(lapsed)_ | **WG spending summary** | Cash-basis per-WG roll-up built from SafeNotes annotations, thread [20706](https://discuss.ens.domains/t/ens-working-group-spending-summaries/20706); H2 2022 → Q1 2026 (last posted 2026-05-19). SafeNotes shut down Sep 2026; continuation undecided → [Q-30](../OPEN-QUESTIONS.md). Data → [wg-transaction-history](../reference/wg-transaction-history.md). |
 | Per active vote | **Voting Period Bulletin** | Posted while a vote is live. |
-| ~Bi-weekly | **DAO Newsletter** | Forum. |
+| ~Bi-weekly | **DAO Newsletter** | Forum; authored by estmcmxci.eth, covered by the monthly [DAO Communications retainer](monthly-compensation.md#dao-communications-retainer-separate-transfer). |
 
 ## Standing & seasonal
 

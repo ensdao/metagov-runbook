@@ -21,3 +21,5 @@ On a seat change (see [elections](../01-governance/elections.md)):
 Before and after rotation, **verify each owner resolves to the expected `steward.*` name** (via `getOwners()` on the Safe). The incoming signer should provision their dedicated hardware wallet and `steward.<ens>.eth` subdomain **before** being added.
 
 **Term 7 state (verified on-chain 2026-08-19):** the Safe is **2 of 4**, the three elected stewards plus the DAO Timelock. Not the 2-of-3 anticipated by the [Path forward vote](https://discuss.ens.domains/t/path-forward-on-working-groups-for-term-7/22107). Always re-verify the live threshold and owner set in [addresses.md](../02-contracts-and-multisigs/addresses.md) against the chain before applying these rotation steps.
+
+**Worked example (Term 7 rotation, 2026-07-30).** One `multiSend` at nonce 235 bundled three `swapOwner` calls (old steward and Secretary keys → `steward.sovereignsignal.eth`, `steward.abdullahumar.eth`, and the DAO Timelock) with a `changeThreshold(2)` ([tx](https://etherscan.io/tx/0xd646d8f1171eb33a23d8259eb237c173b13b8eb8c2060ff0860e4c21745985f1)). Bundling keeps the Safe in a consistent state between steps.
