@@ -18,6 +18,7 @@ Public identities only (ENS / forum handles). Addresses live in [02-contracts-an
 | Lead Steward | one per WG; appointed within 5 days of term start | Operational management, fund-disbursement initiation, DAO updates ([WG Rules](https://docs.ens.domains/dao/wg/rules/)) |
 | DAO Secretary | appointed by majority of all stewards | 4th multisig keyholder; cross-WG coordination; paid by Meta-Gov ([WG Rules](https://docs.ens.domains/dao/wg/rules/)). **Not appointed for Term 7**; the fourth Safe seat is held by the DAO Timelock ([meetings thread](https://discuss.ens.domains/t/meta-gov-working-group-term-7-meetings-thursday-4pm-utc-bi-weekly/22280)) |
 | Security Council (4-of-8) | 8 members, roster and expiry in [security-council.md](02-contracts-and-multisigs/security-council.md) | Cancel/veto-only mandate; members confirmed [EP5.10](https://docs.ens.domains/dao/proposals/5.10/) |
+| DAO Communications | estmcmxci.eth | Newsletter, social distribution, editorial support; 2,060 USDC/mo retainer from the Meta-Gov Safe since Aug 2026 → [monthly-compensation](04-runbook/monthly-compensation.md#dao-communications-retainer-separate-transfer) |
 
 **Lead Steward: netto.eth**, recorded publicly 2026-07-13 and restated in each meeting agenda ([Term 7 meetings thread](https://discuss.ens.domains/t/meta-gov-working-group-term-7-meetings-thursday-4pm-utc-bi-weekly/22280)). No Secretary and no Scribe were appointed for Term 7.
 

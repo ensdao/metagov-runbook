@@ -26,4 +26,8 @@ Before signing **any** multisig transaction:
 - **Verify the full checksummed address AND its ENS name.** The Meta-Gov Safe history contains **address-poisoning lookalikes** and **homoglyph fake-"USDC"** tokens (e.g. Cyrillic `USDС`) showing fictitious transfers. These are phishing, not DAO activity.
 - **Never trust "last interacted" autofill.** Re-derive recipients from the governing proposal / roster.
 
-> ⚠️ **Open question:** Some Safe payouts (e.g. 75,000 USDC and recurring 18,000 USDC transfers in 2026) have unconfirmed purpose/recipient. Confirm against a governing EP before treating them as routine.
+## Historical spend record
+
+Every WG Safe's transactions 2022–2026, categorised and described, are archived from SafeNotes → [wg-transaction-history.md](../reference/wg-transaction-history.md). The 2026 Meta-Gov payouts once flagged here as unconfirmed are annotated there: 75,000 USDC (2026-05-01) was the final [EP 6.30](https://docs.ens.domains/dao/proposals/6.30/) milestone payment, and the 18,000 USDC transfers (2026-04-15, 2026-05-08) are legal-counsel fees to the recipient now listed in [addresses.md](../02-contracts-and-multisigs/addresses.md#recurring-payout-recipients).
+
+> ⚠️ **Open question:** The legal engagement itself (firm, authorising budget line, whether it continues in Term 7) is not documented on the forum → [OPEN-QUESTIONS Q-16](../OPEN-QUESTIONS.md).

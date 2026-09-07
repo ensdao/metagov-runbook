@@ -11,7 +11,7 @@ The Term 7 rotation is **executed**. Current owners, threshold, and the dedicate
 - **The threshold is 2 of 4, not the anticipated 2 of 3.** Any two of the four owners can execute.
 - **The fourth seat is the DAO Timelock itself**, not a Secretary. `wallet.ensdao.eth` is the Timelock (see the [canonical table](addresses.md)); it replaces the Secretary seat in the historical [seat model](../01-governance/stewards-and-roles.md).
 
-Verified against the [Safe Transaction Service](https://api.safe.global/tx-service/eth/api/v1/safes/0x91c32893216dE3eA0a55ABb9851f581d4503d39b/) and a direct `getThreshold()` / `getOwners()` call.
+Verified against the [Safe Transaction Service](https://api.safe.global/tx-service/eth/api/v1/safes/0x91c32893216dE3eA0a55ABb9851f581d4503d39b/) and a direct `getThreshold()` / `getOwners()` call. The rotation itself executed 2026-07-30 as one `multiSend` at nonce 235 ([tx](https://etherscan.io/tx/0xd646d8f1171eb33a23d8259eb237c173b13b8eb8c2060ff0860e4c21745985f1)): three `swapOwner` calls replaced `daostrat.eth`, `steward.5pence.eth` and `secretary.limes.eth`, and `changeThreshold` lowered the threshold from 3 to 2.
 
 ## SPP stream safe: `stream.mg.wg.ens.eth`
 
@@ -19,7 +19,18 @@ Owners are the DAO Timelock + the Meta-Gov main Safe; threshold and address in [
 
 ## Legacy WG Safes (dissolved for Term 7)
 
-The Ecosystem and Public Goods WGs were dissolved entering Term 7 (EP6.44 / ["Path forward"](https://discuss.ens.domains/t/path-forward-on-working-groups-for-term-7/22107)). Their Safes, `main.eco.wg.ens.eth` and `main.pg.wg.ens.eth`, remain on-chain but are **historical**; unspent WG funds return to the treasury per WG Rule 2.3. Addresses and thresholds in [addresses.md](addresses.md).
+The Ecosystem and Public Goods WGs were dissolved entering Term 7 (EP6.44 / ["Path forward"](https://discuss.ens.domains/t/path-forward-on-working-groups-for-term-7/22107)). Their Safes, `main.eco.wg.ens.eth` and `main.pg.wg.ens.eth`, remain on-chain but are **historical**; unspent WG funds returned to the Timelock per WG Rule 2.3 on 2026-06-30 (Ecosystem, [close-out post](https://discuss.ens.domains/t/ens-ecosystem-working-group-close-out-final-term/22227)) and 2026-07-02 (Public Goods, `WG Wind Down` rows in the [WG transaction archive](../reference/wg-transaction-history.md)). Addresses and thresholds in [addresses.md](addresses.md).
+
+### Programme sub-Safes
+
+Each legacy WG also ran programme Safes co-owned by the parent WG Safe and individual stewards/Secretary (owners reverse-resolved via ENS, _as of 2026-09-01_; addresses in [addresses.md](addresses.md)). Their 2022–2026 transactions are in the [WG transaction archive](../reference/wg-transaction-history.md).
+
+| Safe | Threshold | Owners | Status |
+|------|-----------|--------|--------|
+| `hackathons.eco.wg.ens.eth` | 2/3 | `main.eco.wg.ens.eth`, `ens.gregskril.eth`, `secretary.limes.eth` | Funds returned to the Timelock 2026-06-25 |
+| `irl.eco.wg.ens.eth` | 2/3 | `main.eco.wg.ens.eth`, `steward.daemon.eth`, `secretary.limes.eth` | Funds returned to the Timelock 2026-06-30 |
+| `newsletter.eco.wg.ens.eth` | 2/3 | `main.eco.wg.ens.eth`, `estmcmxci.eth`, `secretary.limes.eth` | Dormant since 2026-04-29; near-zero balance |
+| `largegrants.pg.wg.ens.eth` | 3/4 | `secretary.limes.eth`, `simona.eth`, `steward.sovereignsignal.eth`, `steward.coltron.eth` | Dormant since 2025-03-28; near-zero balance |
 
 ## Related
 

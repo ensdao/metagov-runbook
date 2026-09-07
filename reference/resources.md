@@ -51,6 +51,8 @@ Multiple front-ends index the **same** on-chain Governor. They are views over on
 | Anticapture | https://app.anticapture.com/ens | Governance-security: votable supply, turnout, attack-profitability, Security Council status |
 | Dune (by kpk) | https://dune.com/kpk/ens-dao-governance | Governance/treasury metrics |
 | Steakhouse financial reporting | https://discuss.ens.domains/t/ens-financial-reporting-by-steakhouse/16601 | Independent treasury/endowment accounting |
+| WG transaction archive (SafeNotes export) | https://github.com/gofordylan/ens-wg-transactions | Annotated ledger of all 8 WG Safes, Jul 2022 – Jul 2026; SafeNotes itself (safenotes.xyz) shut down Sep 2026. Guide → [wg-transaction-history.md](wg-transaction-history.md) |
+| WG Spending Summaries | https://discuss.ens.domains/t/ens-working-group-spending-summaries/20706 | Quarterly cash-basis WG spend roll-ups, H2 2022 → Q1 2026 |
 
 ## Onboarding & primers
 

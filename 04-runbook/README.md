@@ -25,8 +25,10 @@ Every signer **must** read **[verification-and-safety.md](verification-and-safet
 
 - **Addresses & thresholds:** all canonical addresses and Safe thresholds live in [../02-contracts-and-multisigs/addresses.md](../02-contracts-and-multisigs/addresses.md). Verify there, never from autofill.
 - **Batches:** multi-recipient operations use the Safe **Transaction Builder** so all signers review one batch instead of N transactions.
+- **Record-keeping:** the purpose of every executed transaction should be public. From 2024-01-01 the Secretary annotated each WG-Safe transaction in SafeNotes; that service shut down in Sep 2026 and its export is archived → [../reference/wg-transaction-history.md](../reference/wg-transaction-history.md). What replaces it is undecided → [OPEN-QUESTIONS Q-30](../OPEN-QUESTIONS.md).
 
 ## Related
 
 - Treasury & endowment flows → [../03-treasury-and-endowment/](../03-treasury-and-endowment/)
 - Proposal history (EPs referenced here) → [../reference/governance-history.md](../reference/governance-history.md)
+- Historical WG-Safe transactions, annotated (2022–2026) → [../reference/wg-transaction-history.md](../reference/wg-transaction-history.md)
