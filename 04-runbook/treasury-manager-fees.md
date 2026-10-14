@@ -21,11 +21,19 @@ The recurring management fee is paid **endowment Safe → the karpatkey fee Safe
 
 The fee runs through the Gnosis **Allowance Module** (`0xCFbFaC74C26F8647cBDb8c5caf80BB5b32E43134`) installed on the **endowment Safe** (`endowment.ensdao.eth`, `0x4F2083…FE64`):
 
-- **Standing allowance:** 30 ETH per period; `resetTimeMin` ≈ **25 days** (reduced from 30 by **EP6.2** to clear timing delays) ([Safe Tx Service](https://app.safe.global/)).
+- **Standing allowance:** 30 ETH per period; `resetTimeMin` = 36,000 min = **25 days** (reduced from 30 by **EP6.2** to clear timing delays). Read on-chain 2026-10-14 with `getTokenAllowance(endowment, Meta-Gov Safe, ETH)` on the [module](https://etherscan.io/address/0xCFbFaC74C26F8647cBDb8c5caf80BB5b32E43134#readContract).
 - **Payment call:** `executeAllowanceTransfer`, a MODULE_TRANSACTION, not a Safe owner tx. The allowance is authorized once, so no per-payment vote is needed ([Safe Tx Service](https://app.safe.global/)).
 - **Observed:** 22 payments May 2024 → May 2026, ~monthly; min 12.74 / max 30.0 / mean ≈ 24.27 ETH ([Safe Tx Service](https://app.safe.global/)).
 
 Addresses are canonical in [../02-contracts-and-multisigs/addresses.md](../02-contracts-and-multisigs/addresses.md).
+
+## Who triggers the fee (current state, _as of 2026-10-14_)
+
+- The **Meta-Gov Safe is the only delegate** on the Allowance Module (`getDelegates` on the [module](https://etherscan.io/address/0xCFbFaC74C26F8647cBDb8c5caf80BB5b32E43134#readContract), read 2026-10-14). The September 2026 fee (15.71 ETH) was triggered this way on 2026-10-07 ([MetaGov transaction index](https://discuss.ens.domains/t/22401)).
+- The Endowment Safe's owner changed on 2026-08-11 (see [endowment-permissions.md](../03-treasury-and-endowment/endowment-permissions.md)). The fee allowance is an existing DAO-approved permission and continues unchanged ([Meta-Gov funding request](https://discuss.ens.domains/t/22475)).
+- The Meta-Gov Term 7 funding request says the stewards trigger the fee "until the fee payout moves to the Foundation" ([forum](https://discuss.ens.domains/t/22475)). The Allowance Module keys delegates and allowances on the Safe that calls it (`msg.sender`, [source](https://github.com/safe-global/safe-modules/blob/main/modules/allowances/contracts/AllowanceModule.sol#L425)). So adding or removing a delegate is an Endowment Safe transaction, which the Foundation Safe schedules on the 9-day EndowmentTimelock.
+
+> ⚠️ **Open question:** When and how the fee payout moves to the Foundation (new delegate address, whether the Meta-Gov Safe is removed, whether the 30 ETH / 25-day parameters change) → [OPEN-QUESTIONS Q-33](../OPEN-QUESTIONS.md). Until the module shows a change on-chain, keep running the monthly payment below.
 
 ## Generating the payment
 

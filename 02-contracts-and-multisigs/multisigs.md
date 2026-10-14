@@ -34,6 +34,7 @@ Each legacy WG also ran programme Safes co-owned by the parent WG Safe and indiv
 
 ## Related
 
-- Endowment Safe (Timelock-owned) and karpatkey fee Safe: [03-treasury-and-endowment/](../03-treasury-and-endowment/).
+- Endowment Safe (owned by the EndowmentTimelock since 2026-08-11, not the DAO Timelock) and karpatkey fee Safe: [03-treasury-and-endowment/](../03-treasury-and-endowment/).
+- ENS Foundation Safe (not a WG Safe): schedules Endowment transactions → [endowment-permissions.md](../03-treasury-and-endowment/endowment-permissions.md); address and threshold in [addresses.md](addresses.md).
 - Security Council Safe and the emergency veto procedure: [security-council.md](security-council.md).
 - Signing procedures and anti-phishing verification: [../04-runbook/](../04-runbook/).

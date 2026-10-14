@@ -18,7 +18,7 @@ The recurring operational cadence the Meta-Gov WG runs. Most items live on the [
 | When | Activity | How-to / notes |
 |---|---|---|
 | ~April and ~October | **WG funding request** | Per-term, sometimes two windows: `[Social] Funding Request: Meta-Governance WG Term X` → [funding-request](funding-request.md). |
-| ~Quarterly | **Endowment permissions update** | `[EP] [Executable] Endowment permissions to karpatkey – Update #N` → [endowment-permissions](../03-treasury-and-endowment/endowment-permissions.md). |
+| ~Quarterly | **Endowment permissions update** | "Endowment permissions to kpk – Update #N". Since Update #10 the Foundation schedules it on the 9-day EndowmentTimelock (no DAO vote); stewards host kpk's update on the public call ([funding request](https://discuss.ens.domains/t/22475)) → [endowment-permissions](../03-treasury-and-endowment/endowment-permissions.md). |
 | ~Quarterly | **Timelock runway top-up** | karpatkey tops up the Timelock's operating runway when below threshold → [treasury-automation](../03-treasury-and-endowment/treasury-automation.md). |
 | Monthly | **Compensation run** | Single USDC `multiSend` batch to contributors → [monthly-compensation](monthly-compensation.md). |
 | Monthly | **DAO Communications retainer** | 2,060 USDC direct transfer to estmcmxci.eth (newsletter, social distribution, editorial support), since Aug 2026 → [monthly-compensation](monthly-compensation.md#dao-communications-retainer-separate-transfer). |

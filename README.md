@@ -46,7 +46,7 @@ Start with **[verification & safety](04-runbook/verification-and-safety.md)**. R
 | Token distribution (Hedgey) | Per governing EP | [token-distribution.md](04-runbook/token-distribution.md) |
 | Treasury-manager fees (karpatkey) | Monthly (automated) | [treasury-manager-fees.md](04-runbook/treasury-manager-fees.md) |
 | Steward elections | Annual (term transition) | [01-governance/elections.md](01-governance/elections.md) |
-| Endowment-permission updates | Per governing EP | [03-treasury-and-endowment/endowment-permissions.md](03-treasury-and-endowment/endowment-permissions.md) |
+| Endowment-permission updates | Per Update (Foundation-scheduled since Update #10) | [03-treasury-and-endowment/endowment-permissions.md](03-treasury-and-endowment/endowment-permissions.md) |
 | Security Council emergency veto | Emergency only | [02-contracts-and-multisigs/security-council.md](02-contracts-and-multisigs/security-council.md) |
 | Signer good-practices | Ongoing | [signers.md](04-runbook/signers.md) |
 | Annual governance calendar | Reference | [calendar.md](04-runbook/calendar.md) |

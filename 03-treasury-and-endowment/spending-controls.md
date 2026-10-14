@@ -9,7 +9,8 @@ Every material spend ultimately traces back to a DAO governance proposal. This i
 | Funds leaving the **main treasury** | Executable proposal | Governor vote + **2-day timelock**, then executes from the Timelock. Vote thresholds in [`../01-governance/proposals.md`](../01-governance/proposals.md) |
 | **WG operating spend** (within approved budget) | Working Group stewards | Meta-Gov WG Safe (threshold in [addresses.md](../02-contracts-and-multisigs/addresses.md); seat model in [`../01-governance/stewards-and-roles.md`](../01-governance/stewards-and-roles.md)) |
 | **SPP provider streams** | EP6.13 (pre-authorized) | Stream Management Pod forwards 100% via Superfluid; exposure capped ~50 days. See [service-provider-program.md](service-provider-program.md) |
-| **karpatkey DeFi actions** in the endowment | Zodiac **Roles Modifier V2** whitelist | Manager EOA acts within whitelist only; no per-action vote. See [endowment-permissions.md](endowment-permissions.md) |
+| **Endowment owner transactions** (permission updates, module changes, transfers out) | ENS Foundation (since 2026-08-11) | Foundation Safe schedules on the EndowmentTimelock; **9-day delay**, Security Council can cancel, anyone executes. See [endowment-permissions.md](endowment-permissions.md) |
+| **karpatkey DeFi actions** in the endowment | Zodiac **Roles Modifier** whitelist | Manager Safe acts within whitelist only; no per-action vote, no timelock. See [endowment-permissions.md](endowment-permissions.md) |
 | **karpatkey monthly management fee** | Safe **Allowance Module** (authorized once) | `executeAllowanceTransfer` module tx; no per-payment vote. Allowance/reset in [addresses.md](../02-contracts-and-multisigs/addresses.md) |
 | **Runway top-up** (endowment → Timelock) | Zodiac runway permission (EP6.39) | ETH/USDC to the Timelock only; no per-transfer vote. See [treasury-automation.md](treasury-automation.md) |
 
