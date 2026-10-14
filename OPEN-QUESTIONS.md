@@ -26,8 +26,8 @@ Items that **could not be verified** from a primary source, or that are **in mot
   _Refs: [02-contracts-and-multisigs/ens-protocol-control.md](02-contracts-and-multisigs/ens-protocol-control.md), [02-contracts-and-multisigs/addresses.md](02-contracts-and-multisigs/addresses.md)._
 - **Q-12: `controller.ens.eth` alias lag.** The alias resolves to the older `0x2535…303b` while the deployments wiki lists `0x59E1…eA547` as the active ETHRegistrarController. Intentional or just not updated?
   _Refs: [02-contracts-and-multisigs/addresses.md](02-contracts-and-multisigs/addresses.md), [02-contracts-and-multisigs/ens-protocol-control.md](02-contracts-and-multisigs/ens-protocol-control.md)._
-- **Q-13: Current Roles Modifier V2 instance.** Is `0x703806…0A40` still the sole/current Zodiac Roles instance, or superseded by an "Update #N" beyond EP 6.38?
-  _Refs: [03-treasury-and-endowment/endowment-permissions.md](03-treasury-and-endowment/endowment-permissions.md), [02-contracts-and-multisigs/addresses.md](02-contracts-and-multisigs/addresses.md)._
+- **Q-32: EP number of the Foundation executable.** "[Executable] Next Era of ENS DAO: Empowering the ENS Foundation" executed 2026-08-11 ([Tally](https://www.tally.xyz/gov/ens/proposal/80619211450810140112687536515944199882433060764177806587986222097717655810120), [forum](https://discuss.ens.domains/t/22329)), but its canonical EP number is not confirmed: the [docs proposals index](https://docs.ens.domains/dao/proposals/) stops at EP 6.51 as of 2026-10-14.
+  _Refs: [reference/governance-history.md](reference/governance-history.md), [03-treasury-and-endowment/endowment-permissions.md](03-treasury-and-endowment/endowment-permissions.md)._
 
 ## Treasury & endowment
 
@@ -47,6 +47,8 @@ Items that **could not be verified** from a primary source, or that are **in mot
   _Refs: [04-runbook/README.md](04-runbook/README.md), [04-runbook/monthly-compensation.md](04-runbook/monthly-compensation.md), [04-runbook/calendar.md](04-runbook/calendar.md), [reference/wg-transaction-history.md](reference/wg-transaction-history.md)._
 - **Q-31: Completeness of the SafeNotes archive.** The export omits at least two executed Meta-Gov transactions ([2026-03-25 batch](https://etherscan.io/tx/0xdc3b69a1289f9eae33b8dd282004927c86a9d6610483204b2e9c5ac8a6374926) incl. the 50,000 USDC EP 6.30 milestone; [2026-05-01 compensation batch](https://etherscan.io/tx/0x2a5934624d75cfd0a131a6ba2d4252f2f02db68d246c62f61c6c54a25300d420)); no other month was reconciled line by line. Reconcile against the Safe Transaction Service before quoting totals from it.
   _Refs: [reference/wg-transaction-history.md](reference/wg-transaction-history.md)._
+- **Q-33: kpk management-fee payout handover to the Foundation.** On-chain state, read 2026-10-14: the Meta-Gov Safe is the only Allowance Module delegate on the Endowment (30 ETH, 25-day reset). The [Meta-Gov Term 7 funding request](https://discuss.ens.domains/t/22475) says stewards trigger the fee "until the fee payout moves to the Foundation". On 2026-10-14 the Foundation asked to take over the kpk fee payments (steward-reported; no public record located). Open: the date, the new delegate address, whether the Meta-Gov Safe is removed as delegate, and whether the allowance parameters change. Any such change is an Endowment Safe transaction on the 9-day EndowmentTimelock, so it will be visible on-chain before it takes effect.
+  _Refs: [04-runbook/treasury-manager-fees.md](04-runbook/treasury-manager-fees.md), [02-contracts-and-multisigs/addresses.md](02-contracts-and-multisigs/addresses.md), [scripts/manager_fee_to_safe.py](scripts/manager_fee_to_safe.py)._
 
 ## Directory & audits
 

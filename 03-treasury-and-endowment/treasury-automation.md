@@ -26,4 +26,4 @@ These predate EP6.39 and should be treated as historical:
 - **Manual ETH→USDC TWAP swaps**: [EP3.3](https://docs.ens.domains/dao/proposals/3.3/) (CoW/Milkman) and the ENS TWAP Multisig (EP6.1). Superseded: karpatkey now converts on-chain inside the Roles policy.
 - **One-off "transfer USDC from endowment to `wallet.ensdao.eth`" votes**: EP6.32 ($2.5M), EP6.37 ($900k). Superseded by the standing Zodiac runway permission.
 
-Addresses for the Registrar Manager, Roles Modifier, and manager EOA are in [`../02-contracts-and-multisigs/addresses.md`](../02-contracts-and-multisigs/addresses.md).
+Addresses for the Registrar Manager, Roles Modifier, and manager Safe are in [`../02-contracts-and-multisigs/addresses.md`](../02-contracts-and-multisigs/addresses.md).

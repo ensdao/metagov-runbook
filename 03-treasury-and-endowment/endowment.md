@@ -1,10 +1,10 @@
 # The Endowment
 
-The Endowment is the DAO's long-term reserve, professionally managed by **karpatkey** with independent financial reporting by **Steakhouse**. It lives in a dedicated Gnosis Safe, `endowment.ensdao.eth`, **owned 1/1 by the Timelock**.
+The Endowment is the DAO's long-term reserve, professionally managed by **karpatkey** with independent financial reporting by **Steakhouse**. It lives in a dedicated Gnosis Safe, `endowment.ensdao.eth`, **owned 1/1 by the EndowmentTimelock** since 2026-08-11 (before that, by the DAO Timelock). The ENS Foundation Safe schedules Endowment transactions with a 9-day delay that the Security Council can cancel ([proposal](https://discuss.ens.domains/t/22329); [owner swap tx](https://etherscan.io/tx/0xd38d35f55f4387301b5cdf738aabc16d38189df02cafa50c8a47a70605779422)). Detail in [endowment-permissions.md](endowment-permissions.md).
 
 ## Non-custodial custody model
 
-karpatkey is **not** a Safe signer. It operates the endowment only through a **Zodiac Roles Modifier V2** whitelist that defines exactly which protocols and actions the manager EOA may take. karpatkey cannot self-grant permissions or move funds outside the whitelist; every new integration requires a DAO executable proposal. How that whitelist is changed is covered in [endowment-permissions.md](endowment-permissions.md). Endowment Safe, Roles Modifier, and manager EOA addresses are in [`../02-contracts-and-multisigs/addresses.md`](../02-contracts-and-multisigs/addresses.md).
+karpatkey is **not** a Safe signer. It operates the endowment only through a **Zodiac Roles Modifier** whitelist that defines exactly which protocols and actions its manager Safe may take. karpatkey cannot self-grant permissions or move funds outside the whitelist. Since Update #10 a new integration is scheduled by the Foundation Safe on the 9-day EndowmentTimelock, not passed by DAO vote; before that it required a DAO executable proposal. How that whitelist is changed is covered in [endowment-permissions.md](endowment-permissions.md). Endowment Safe, Roles Modifier, and manager Safe addresses are in [`../02-contracts-and-multisigs/addresses.md`](../02-contracts-and-multisigs/addresses.md).
 
 ## Manager selection & policy
 
