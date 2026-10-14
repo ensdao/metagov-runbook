@@ -31,7 +31,7 @@ Not for prose polish or restructuring. That's an ordinary PR.
 | ENS docs | docs.ens.domains/dao (Constitution, wg/rules, stewards, proposals/`<n>`) | rules and per-EP pages |
 | Snapshot | snapshot.box/#/s:ens.eth | social/constitutional votes + results |
 | Tally | tally.xyz/gov/ens | on-chain executables, status, IDs |
-| Safe Tx Service | safe-transaction-mainnet.safe.global/api/v1/safes/`{addr}`/ | multisig owners + threshold (verify before editing `addresses.md`) |
+| Safe Tx Service | api.safe.global/tx-service/eth/api/v1/safes/`{addr}`/ | multisig owners + threshold (verify before editing `addresses.md`) |
 | ens-contracts deployments / Etherscan | github.com/ensdomains/ens-contracts/wiki · etherscan.io | contract addresses |
 | karpatkey reports | reports.kpk.io/ens | endowment ops (link, don't transcribe values) |
 
