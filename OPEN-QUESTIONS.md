@@ -4,11 +4,9 @@ Items that **could not be verified** from a primary source, or that are **in mot
 
 ## Live / time-sensitive (Term 7 transition)
 
-- **Q-05: Term 7 Meta-Gov funding.** The July 2026 window closed 2026-07-31 with no proposal posted; the October 2026 window is the stated target. The funding EP id and amount remain unset. Open alongside it: WG Rule 11.2 requires steward compensation to be detailed in the Collective Proposal and Rule 11.3 bars it outside one, so how the eventual proposal treats compensation already paid from residual Term 6 funds needs stating.
+- **Q-05: Term 7 Meta-Gov funding (request posted).** The [Social funding request](https://discuss.ens.domains/t/22475) was posted 2026-10-09: 201,559 USDC for 1 Oct 2026 → 30 Jun 2027, recorded in [term-07.md](05-terms/term-07.md#funding). It also states how the executable meets Rules 11.2/11.3 (ratify compensation paid since 1 July; authorize it to 30 June 2027). Still open: the Snapshot result (no vote open on [Snapshot](https://snapshot.box/#/s:ens.eth) as of 2026-10-14), the EP number, and the executable's Tally link and execution.
   _Refs: [05-terms/term-07.md](05-terms/term-07.md), [04-runbook/funding-request.md](04-runbook/funding-request.md)._
-- **Q-06: Funding-window cadence under the July anchor.** Whether the historical Jan/Apr/Jul/Oct windows shift with the new July–June cycle is not documented.
-  _Refs: [04-runbook/calendar.md](04-runbook/calendar.md), [04-runbook/funding-request.md](04-runbook/funding-request.md)._
-- **Q-07: Term anchor after Term 7.** Whether Term 8+ reverts to a Jan-1 anchor or stays July-anchored (a consequence of the Retro 6-month shift) is unresolved.
+- **Q-07: Term anchor after Term 7.** The [Term 7 funding request](https://discuss.ens.domains/t/22475) states that a WG Rules update will anchor terms to 1 July, ahead of the Term 8 steward compensation guidelines. Open until the [WG Rules](https://docs.ens.domains/dao/wg/rules/) are amended.
   _Refs: [05-terms/README.md](05-terms/README.md), [04-runbook/calendar.md](04-runbook/calendar.md)._
 - **Q-08: Single-WG formalization.** Were the Constitution / WG Rules pages formally amended for the single-WG structure, or does it stand solely on the Snapshot outcome?
   _Refs: [01-governance/constitution.md](01-governance/constitution.md), [05-terms/README.md](05-terms/README.md)._

@@ -22,11 +22,27 @@ Turnout was 1,444,708 ENS across 60 voters, above the 1M quorum. Candidates estm
 
 | WG | Proposal | Amount | Window |
 |----|----------|--------|--------|
-| Meta-Governance | not yet posted | not yet posted | July 2026 ([EP 6.44](https://discuss.ens.domains/t/path-forward-on-working-groups-for-term-7/22107) timeline: stewards collaborate on the Collective Proposal to request WG funds after term start) |
+| Meta-Governance | [[Social] Funding Request: ENS Meta-Governance Working Group Term 7 (Oct. Window)](https://discuss.ens.domains/t/22475), posted 2026-10-09; **no Snapshot vote yet** (_as of 2026-10-14_, [Snapshot](https://snapshot.box/#/s:ens.eth)) | **201,559 USDC**, 0 ETH, 0 ENS | October 2026 |
 
-The **July 2026 window closed on 2026-07-31 with no Meta-Governance funding proposal posted.** The October 2026 window is the stated target. Compensation in the interim is paid from residual Term 6 funds held by the Meta-Gov Safe.
+The July 2026 window closed on 2026-07-31 with no Meta-Governance funding proposal. Residual Term 6 funds paid steward compensation and communications from 1 July, so no emergency request under WG Rule 10.1.2 was needed ([request](https://discuss.ens.domains/t/22475)).
 
-> ⚠️ **Open question:** The Term 7 funding EP id and amount remain unset pending the October window. Note WG Rule 11.2 requires steward compensation to be detailed in the Collective Proposal and Rule 11.3 bars it outside one; how the eventual proposal treats payments already made is not yet stated.
+The request is a Social Proposal under WG Rule 10.1.1. If it passes, the stewards submit the executable Collective Proposal in the October 2026 window. It covers **1 Oct 2026 → 30 Jun 2027** in one request, where past requests ran only to the next window ([request](https://discuss.ens.domains/t/22475)).
+
+| Budget line (1 Oct 2026 → 30 Jun 2027) | USDC | Note |
+|---|---|---|
+| Steward compensation (9 months) | 121,500 | $13,500/month for three seats |
+| DAO communications (9 months) | 18,540 | $2,060/month → [monthly-compensation](../04-runbook/monthly-compensation.md) |
+| Discretionary (governance and community) | 50,000 | Ceiling; travel and contributor costs; no grants or programs |
+| Contract audits (conditional) | 100,000 | Ceiling; released only for DAO-approved audits, first expected Governor Nexus; unused returns to the treasury |
+| **Total** | **290,040** | |
+| Less USDC held on 2026-10-07 | −88,481 | |
+| **Requested** | **201,559** | |
+
+Source: [request](https://discuss.ens.domains/t/22475). No ETH or ENS is requested: the steward ENS component comes from ENS already in the Safe (see Compensation). The stewards will report spending against this budget at the April 2027 window and at term end.
+
+**Rules 11.2 / 11.3.** The request states that the executable will detail Term 7 steward compensation, **ratify** compensation paid from residual Term 6 funds from 1 July 2026 until execution, and **authorize** it from execution to 30 June 2027 ([request](https://discuss.ens.domains/t/22475)).
+
+> ⚠️ **Open question:** The Snapshot result, the EP number, and the executable are pending → [OPEN-QUESTIONS Q-05](../OPEN-QUESTIONS.md).
 
 ## Compensation
 
@@ -39,7 +55,7 @@ No standalone "Term 7 Compensation" proposal exists. Rates are codified within *
 | Secretary | $5.5k/month — **role not filled in Term 7** |
 | Scribe | $3k/month — **role not filled in Term 7** |
 
-\* 2-year vested ENS, calculated using the 6-month TWAP, distributed mid-term, matching the USD value of the salaries.
+\* 2-year vested ENS, calculated using the 6-month TWAP, distributed mid-term, matching the USD value of the salaries. The funding request sizes the Term 7 ENS component at **$162,000** (twelve months of USDC compensation), paid from the 45,129 unencumbered ENS already in the Safe. That covers it at any six-month TWAP of $3.59 or more; below that, the stewards will request the shortfall in the next window ([request](https://discuss.ens.domains/t/22475)).
 
 Under the winning "Metagov only" option, Secretary and Scribe are **not** ballot-mandated: per Coltron.eth (#10) and 184.eth (#6), Secretary is a steward nomination per WG Rules and Scribe is funded at the elected stewards' discretion.
 
@@ -55,6 +71,8 @@ Note the outcome differs from the 2-of-3 anticipated in the ["Path forward"](htt
 
 ## Activity
 
+- **Term 7 funding request posted** 2026-10-09: 201,559 USDC for 1 Oct 2026 → 30 Jun 2027; Snapshot vote not yet open (_as of 2026-10-14_). See [Funding](#funding) and the [request](https://discuss.ens.domains/t/22475).
+- **Delegation Incentives Program pilot ended**: Rounds 1–3 paid 18,000 ENS from the Meta-Gov Safe; Round 3 closed 2026-09-30. EP 6.47 (forum numbering) provides that the remaining **72,000 ENS is returned to the treasury** once the pilot concludes ([request](https://discuss.ens.domains/t/22475); [EP 6.47 thread](https://discuss.ens.domains/t/6-47-executable-delegation-incentives-program-funding-transfer/22228)). **Not yet returned**: the Safe still held 117,129 ENS on 2026-10-14 ([Safe API balances](https://api.safe.global/tx-service/eth/api/v1/safes/0x91c32893216dE3eA0a55ABb9851f581d4503d39b/balances/)).
 - **Term 7 steward election concluded** (25–30 Jun 2026, ranked-choice Copeland): netto.eth, sovereignsignal.eth, and abdullahumar.eth elected; result posted [2026-07-01 in thread 22157](https://discuss.ens.domains/t/meta-governance-working-group-steward-nominations-term-7-2026/22157).
 - **Meta-Gov Safe rotated to the Term 7 signers** on 2026-07-30 (2-of-4: three steward keys + the Timelock; [tx](https://etherscan.io/tx/0xd646d8f1171eb33a23d8259eb237c173b13b8eb8c2060ff0860e4c21745985f1)). See [multisigs.md](../02-contracts-and-multisigs/multisigs.md).
 - **SafeNotes shut down** (announced [2026-09-01](https://discuss.ens.domains/t/safenotes-shutting-down/22398), citing Meta-Governance not continuing to support it); the annotated WG transaction record 2022–2026 is archived → [wg-transaction-history.md](../reference/wg-transaction-history.md). Replacement practice undecided → [Q-30](../OPEN-QUESTIONS.md).

@@ -17,7 +17,7 @@ The recurring operational cadence the Meta-Gov WG runs. Most items live on the [
 
 | When | Activity | How-to / notes |
 |---|---|---|
-| ~April and ~October | **WG funding request** | Per-term, sometimes two windows: `[Social] Funding Request: Meta-Governance WG Term X` → [funding-request](funding-request.md). |
+| ~April and ~October | **WG funding request** | Per-term, sometimes two windows: `[Social] Funding Request: Meta-Governance WG Term X` → [funding-request](funding-request.md). Term 7 uses one October 2026 request for the whole remaining term, with spending reports at the April 2027 window and at term end ([request](https://discuss.ens.domains/t/22475)). |
 | ~Quarterly | **Endowment permissions update** | `[EP] [Executable] Endowment permissions to karpatkey – Update #N` → [endowment-permissions](../03-treasury-and-endowment/endowment-permissions.md). |
 | ~Quarterly | **Timelock runway top-up** | karpatkey tops up the Timelock's operating runway when below threshold → [treasury-automation](../03-treasury-and-endowment/treasury-automation.md). |
 | Monthly | **Compensation run** | Single USDC `multiSend` batch to contributors → [monthly-compensation](monthly-compensation.md). |
@@ -43,4 +43,4 @@ The recurring operational cadence the Meta-Gov WG runs. Most items live on the [
 | Per season | **Service Provider Program** | Application round → Copeland selection → quarterly per-provider reports. SPP3 applications opened May 2026 (thread [22131](https://discuss.ens.domains/t/22131)). |
 | ~2-yearly | **Security Council renewal / liveness** | Council veto authority must be renewed before it auto-expires. Last renewed 2026-07-22 (the 2024 council expired 2026-07-24) → [security-council](../02-contracts-and-multisigs/security-council.md). |
 
-> ⚠️ **Open question:** Whether the quarterly funding windows (historically Jan/Apr/Jul/Oct) shift with the new July–June term cycle is not yet documented.
+The quarterly funding windows (Jan/Apr/Jul/Oct) continue in Term 7: the stewards' request uses the October 2026 window and names January and April for further needs ([request](https://discuss.ens.domains/t/22475)).
